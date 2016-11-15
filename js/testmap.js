@@ -19,13 +19,14 @@ function initmap() {
 }
 
 function refreshBusLocations() {
-	console.log("tick")
+	console.log("tick");
 	var locations = [];
 	$.each(markers, function(index, value) {
 		map.removeLayer(value);
 	});
 
-	$.getJSON("http://dev.hsl.fi/siriaccess/vm/json?operatorRef=HSL", function( data ) {
+	$.getJSON("backend/example.json", function( data ) {
+		console.log("getjson");
 		vehicleActivity = data.Siri.ServiceDelivery.VehicleMonitoringDelivery[0].VehicleActivity;
 
 		$.each(vehicleActivity, function(index, value) {
@@ -36,7 +37,7 @@ function refreshBusLocations() {
 			markers.push(L.marker(value).addTo(map));
 		});
 
-	})
+	});
 
 
 }
