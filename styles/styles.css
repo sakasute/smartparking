@@ -1,3 +1,11 @@
-html, body, #testmap {
+html, body {
   height: 100%;
+}
+
+#testmap {
+  height: 90%;
+}
+
+#controls {
+  height: 10%;
 }

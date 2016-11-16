@@ -2,11 +2,12 @@ var map;
 var ajaxRequest;
 var plotlist;
 var plotlayers=[];
+var markers = [];
+var stopMarkers = [];
 
 function initmap() {
 	// set up the map
 	map = new L.Map('testmap');
-	markers = [];
 
 	// create the tile layer with correct attribution
 	var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -25,8 +26,7 @@ function refreshBusLocations() {
 		map.removeLayer(value);
 	});
 
-	$.getJSON("backend/example.json", function( data ) {
-		console.log("getjson");
+	$.getJSON("http://dev.hsl.fi/siriaccess/vm/json?operatorRef=HSL", function( data ) {
 		vehicleActivity = data.Siri.ServiceDelivery.VehicleMonitoringDelivery[0].VehicleActivity;
 
 		$.each(vehicleActivity, function(index, value) {
@@ -36,15 +36,34 @@ function refreshBusLocations() {
 		$.each(locations, function(index, value) {
 			markers.push(L.marker(value).addTo(map));
 		});
-
 	});
-
-
 }
+
+// stopLength is time in milliseconds
+function showStopLocations(stopLength) {
+	$.each(stopMarkers, function(index, value) {
+		map.removeLayer(value);
+	});
+	
+	$.getJSON("backend/stop_times.json", function( data ) {
+		var stops = $.grep(data, function(value, index) {
+			length = value.stopTimestamp - value.startTimestamp;
+			if (length < stopLength) {
+				return false;
+			}
+			stopMarkers.push(L.marker([value.latitude, value.longitude]).addTo(map));
+			return true;
+		});
+	});
+}
+
 
 $( document ).ready(function() {
     initmap();
-		refreshBusLocations();
-		setInterval(refreshBusLocations, 5000);
+
+		$("#stopTimeButton").click(function(){
+			var stopLength = $("#stopTimeInput").val();
+			showStopLocations(stopLength * 1000);
+		});
 
 });
