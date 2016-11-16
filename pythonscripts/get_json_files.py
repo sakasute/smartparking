@@ -19,5 +19,9 @@ while 1:
     output_file = open("hsl_data/" + current_time + ".json", 'w+')  # muista luoda hsl_data -kansio ennen scriptin ajamista
     
     output_file.write(resp.text)
+
+    print("created file " + current_time + ".json")
+
+    output_file.close()
     
     time.sleep(10) # ajaa scriptin suunnilleen 10 sekunnin välein hamaan tulevaisuuteen
