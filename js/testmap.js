@@ -44,9 +44,9 @@ function showStopLocations(stopLength) {
 	$.each(stopMarkers, function(index, value) {
 		map.removeLayer(value);
 	});
-	
+
 	$.getJSON("backend/stop_times.json", function( data ) {
-		var stops = $.grep(data, function(value, index) {
+		var stops = $.grep(data, function(value, index) { // filter out stops shorter than given time
 			length = value.stopTimestamp - value.startTimestamp;
 			if (length < stopLength) {
 				return false;
@@ -60,6 +60,8 @@ function showStopLocations(stopLength) {
 
 $( document ).ready(function() {
     initmap();
+		//refreshBusLocations();
+		//setInterval(refreshBusLocations, 5000);
 
 		$("#stopTimeButton").click(function(){
 			var stopLength = $("#stopTimeInput").val();
