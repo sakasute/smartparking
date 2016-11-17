@@ -4,6 +4,7 @@ var plotlist;
 var plotlayers=[];
 var markers = [];
 var stopMarkers = [];
+var heatLayers = [];
 
 function initmap() {
 	// set up the map
@@ -41,7 +42,11 @@ function refreshBusLocations() {
 
 // stopLength is time in milliseconds
 function showStopLocations(stopLength) {
-	$.each(stopMarkers, function(index, value) {
+	//$.each(stopMarkers, function(index, value) {
+	//	map.removeLayer(value);
+	//});
+	stopMarkers = [];
+	$.each(heatLayers, function(index, value) {
 		map.removeLayer(value);
 	});
 
@@ -51,9 +56,10 @@ function showStopLocations(stopLength) {
 			if (length < stopLength) {
 				return false;
 			}
-			stopMarkers.push(L.marker([value.latitude, value.longitude]).addTo(map));
+			stopMarkers.push([value.latitude, value.longitude, 10]); // lat, lng, intensity
 			return true;
 		});
+		heatLayers.push(L.heatLayer(stopMarkers).addTo(map));
 	});
 }
 
@@ -67,5 +73,7 @@ $( document ).ready(function() {
 			var stopLength = $("#stopTimeInput").val();
 			showStopLocations(stopLength * 1000);
 		});
+
+
 
 });
