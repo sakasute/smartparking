@@ -5,6 +5,7 @@ var plotlayers=[];
 var markers = [];
 var stopMarkers = [];
 var heatLayers = [];
+var chargers = [];
 
 function initmap() {
 	// set up the map
@@ -59,7 +60,19 @@ function showStopLocations(stopLength) {
 			stopMarkers.push([value.latitude, value.longitude, 10]); // lat, lng, intensity
 			return true;
 		});
-		heatLayers.push(L.heatLayer(stopMarkers).addTo(map));
+		heatLayers.push(L.heatLayer(stopMarkers, {radius: 25}).addTo(map));
+	});
+}
+
+function showChargingStations() {
+
+	$.getJSON("http://api.openchargemap.io/v2/poi/?output=json&latitude=60.1826&longitude=24.9215&distance=50&maxresults=100&compact=true&verbose=false", function( data ) {
+		$.each(data, function(index, value) {
+			chargers.push([value.AddressInfo.Latitude, value.AddressInfo.Longitude]);
+		});
+		$.each(chargers, function(index, value) {
+			markers.push(L.marker(value).addTo(map));
+		});
 	});
 }
 
@@ -73,6 +86,10 @@ $( document ).ready(function() {
 			var stopLength = $("#stopTimeInput").val();
 			showStopLocations(stopLength * 1000);
 		});
+
+
+
+		showChargingStations();
 
 
 
