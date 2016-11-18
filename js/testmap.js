@@ -51,7 +51,7 @@ function showStopLocations(stopLength) {
 		map.removeLayer(value);
 	});
 
-	$.getJSON("backend/stop_times.json", function( data ) {
+	$.getJSON("backend/data_handling_tool/outputs/stop_times.json", function( data ) {
 		var stops = $.grep(data, function(value, index) { // filter out stops shorter than given time
 			length = value.stopTimestamp - value.startTimestamp;
 			if (length < stopLength) {
@@ -60,7 +60,7 @@ function showStopLocations(stopLength) {
 			stopMarkers.push([value.latitude, value.longitude, 10]); // lat, lng, intensity
 			return true;
 		});
-		heatLayers.push(L.heatLayer(stopMarkers, {radius: 25}).addTo(map));
+		heatLayers.push(L.heatLayer(stopMarkers, {radius: 30}).addTo(map));
 	});
 }
 
@@ -89,7 +89,7 @@ $( document ).ready(function() {
 
 
 
-		showChargingStations();
+		//showChargingStations();
 
 
 
