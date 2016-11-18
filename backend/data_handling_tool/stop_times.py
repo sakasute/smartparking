@@ -32,11 +32,9 @@ of output:
 '''
 
 # sorts vehicle's location history by time and removes duplicates
-def prep_vehicle_loc_info(time_locations):
-    unique_observations = [dict(t) for t in set([tuple(location.items()) for location in time_locations])] # removes duplicate time/locations: https://stackoverflow.com/questions/9427163/remove-duplicate-dict-in-list-in-python
-    sorted_by_time = sorted(unique_observations, key=lambda k: k['Timestamp']) # sorts time/locations by timestamp
+def sort_by_time(time_locations):
+    sorted_by_time = sorted(time_locations, key=lambda k: k['Timestamp']) # sorts time/locations by timestamp
     return sorted_by_time
-
 
 stops = []
 
@@ -45,14 +43,15 @@ with open("outputs/prepared_data.json") as data_file:
     
     for vehicle in data:
         
-        vehicle_history = prep_vehicle_loc_info(data[vehicle])
+        vehicle_history = sort_by_time(data[vehicle])
         
         latest_loc = vehicle_history[0]
         
         stop_has_started = 0
         start_time = latest_loc['Timestamp']
         for location in vehicle_history[1:]:
-            if latest_loc['Latitude'] == location['Latitude'] and latest_loc['Longitude'] == location['Longitude']:
+            # this condition still needs some thought and testing
+            if abs(latest_loc['Latitude'] - location['Latitude']) < 0.0001 and abs(latest_loc['Longitude'] - location['Longitude'] < 0.00005):   # 1 degree in longitude is pretty much twice the length of 1 degree latitude in metres at Helsinki's coordinates
                 if not stop_has_started:
                     stop_has_started = 1
                     start_time = latest_loc['Timestamp']

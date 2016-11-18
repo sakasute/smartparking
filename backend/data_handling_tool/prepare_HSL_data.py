@@ -70,12 +70,13 @@ for filename in os.listdir(path):   # iterate through every filename in folder
                 time_location['Latitude'] = latitude
                 time_location['Longitude'] = longitude
                 
-                if key in vehicle_activity:
-                    if timestamp != vehicle_activity[key][-1]['Timestamp']:     # don't add duplicate timelocations 
+                if time_location['Latitude'] != (0 or None) and time_location['Longitude'] != (0 or None):      # don't add points with missing gps info
+                    if key in vehicle_activity:
+                        if timestamp != vehicle_activity[key][-1]['Timestamp']:     # don't add duplicate timelocations
+                            vehicle_activity[key].append(time_location)
+                    else:
+                        vehicle_activity[key] = []
                         vehicle_activity[key].append(time_location)
-                else:
-                    vehicle_activity[key] = []
-                    vehicle_activity[key].append(time_location)
                     
                  
         except ValueError:
