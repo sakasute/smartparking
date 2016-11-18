@@ -12,7 +12,8 @@ from pprint import pprint
 
 '''
 Script to prepare raw json-files from the raw_HSL_data-folder into one json-file
-with only necessary information (time and location). Example of output json:
+with only necessary information (time and location). And yes, the code is far from
+optimal.
 
 example of output:
 
@@ -54,7 +55,7 @@ path = './raw_HSL_data/'
 vehicle_activity = {}
 list_of_activities = []
 
-for filename in os.listdir(path): # iterate through every filename in folder
+for filename in os.listdir(path):   # iterate through every filename in folder
     with open("raw_HSL_data/" + filename) as data_file:
         try:
             data = json.load(data_file)
@@ -63,27 +64,25 @@ for filename in os.listdir(path): # iterate through every filename in folder
                 timestamp = vehicle['RecordedAtTime']
                 latitude = vehicle['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
                 longitude = vehicle['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-                time_location = {}
                 
+                time_location = {}                
                 time_location['Timestamp'] = timestamp
                 time_location['Latitude'] = latitude
                 time_location['Longitude'] = longitude
                 
                 if key in vehicle_activity:
-                    vehicle_activity[key].append(time_location)
-                    
+                    if timestamp != vehicle_activity[key][-1]['Timestamp']:     # don't add duplicate timelocations 
+                        vehicle_activity[key].append(time_location)
                 else:
                     vehicle_activity[key] = []
-                    
                     vehicle_activity[key].append(time_location)
                     
-                
-                
-            
+                 
         except ValueError:
             print("shit happens")
             
-            
+
+# make dictionaries (i.e. json-objects) out of every vehicleActivity item
 for vehicle, timelocations in vehicle_activity.items():
     list_of_activities.append({vehicle: timelocations})
             
