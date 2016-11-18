@@ -10,11 +10,51 @@ import os
 import json
 from pprint import pprint
 
+'''
+Script to prepare raw json-files from the raw_HSL_data-folder into one json-file
+with only necessary information (time and location). Example of output json:
+
+example of output:
+
+{
+  "metro83": [
+    {
+      "Longitude": 25.038409,
+      "Timestamp": 1479482560000,
+      "Latitude": 60.200576
+    },
+    {
+      "Longitude": 25.039756,
+      "Timestamp": 1479482571000,
+      "Latitude": 60.201737
+    }
+  ],
+  "H9137": [
+    {
+      "Longitude": 24.91770602,
+      "Timestamp": 1479482559591,
+      "Latitude": 60.30824388
+    },
+    {
+      "Longitude": 24.91770602,
+      "Timestamp": 1479482569895,
+      "Latitude": 60.30824388
+    },
+    {
+      "Longitude": 24.84846,
+      "Timestamp": 1479482948177,
+      "Latitude": 60.28567
+    }
+  ]
+}
+'''
+
 path = './raw_HSL_data/'
 
 vehicle_activity = {}
+list_of_activities = []
 
-for filename in os.listdir(path):
+for filename in os.listdir(path): # iterate through every filename in folder
     with open("raw_HSL_data/" + filename) as data_file:
         try:
             data = json.load(data_file)
@@ -25,9 +65,10 @@ for filename in os.listdir(path):
                 longitude = vehicle['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
                 time_location = {}
                 
-                time_location['timestamp'] = timestamp
-                time_location['latitude'] = latitude
-                time_location['longitude'] = longitude
+                time_location['Timestamp'] = timestamp
+                time_location['Latitude'] = latitude
+                time_location['Longitude'] = longitude
+                
                 if key in vehicle_activity:
                     vehicle_activity[key].append(time_location)
                     
@@ -41,6 +82,11 @@ for filename in os.listdir(path):
             
         except ValueError:
             print("shit happens")
+            
+            
+for vehicle, timelocations in vehicle_activity.items():
+    list_of_activities.append({vehicle: timelocations})
+            
             
 with open('outputs/prepared_data.json', 'w') as outfile:
     json.dump(vehicle_activity, outfile)

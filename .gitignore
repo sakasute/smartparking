@@ -46,7 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
+## raw HSL data
+backend/data_handling_tool/raw_HSL_data
 
 ##-----------------------------------------------------------
 ##python

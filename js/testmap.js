@@ -53,11 +53,11 @@ function showStopLocations(stopLength) {
 
 	$.getJSON("backend/data_handling_tool/outputs/stop_times.json", function( data ) {
 		var stops = $.grep(data, function(value, index) { // filter out stops shorter than given time
-			length = value.stopTimestamp - value.startTimestamp;
+			length = value.StopTimestamp - value.StartTimestamp;
 			if (length < stopLength) {
 				return false;
 			}
-			stopMarkers.push([value.latitude, value.longitude, 10]); // lat, lng, intensity
+			stopMarkers.push([value.Latitude, value.Longitude, 10]); // lat, lng, intensity
 			return true;
 		});
 		heatLayers.push(L.heatLayer(stopMarkers, {radius: 30}).addTo(map));
