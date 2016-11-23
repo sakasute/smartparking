@@ -28,10 +28,33 @@
     <div id="controls">
       <div class="col-lg-3">
         <div class="input-group">
-          <input id="stopTimeInput" type="text" class="form-control" placeholder="Stopping time in seconds">
+
+          <!--<input id="stopTimeInput" type="text" class="form-control" placeholder="Stopping time in seconds">
           <span class="input-group-btn">
             <button id="stopTimeButton" class="btn btn-default" type="button">Go!</button>
+          </span>-->
+
+          <!--<input id="batteryLevelInput" type="text" class="form-control" placeholder="Battery level">-->
+          <span class="input-group-btn">
+            <button id="EVButton" class="btn btn-default" type="button">Show parked EVs</button>
           </span>
+
+          <span class="input-group-btn">
+            <button id="lowBatteryButton" class="btn btn-default" type="button">Show non-charging vehicles</button>
+          </span>
+
+          <span class="input-group-btn">
+            <button id="highBatteryButton" class="btn btn-default" type="button">Show charging vehicles</button>
+          </span>
+
+          <span class="input-group-btn">
+            <button id="showChargersButton" class="btn btn-default" type="button">Show chargers</button>
+          </span>
+
+          <span class="input-group-btn">
+            <button id="clearAllButton" class="btn btn-default" type="button">Clear all</button>
+          </span>
+
         </div>
       </div>
     </div>
@@ -45,6 +68,6 @@
     <!-- Leaflet heatmap -->
     <script src="leaflet/leaflet-heat.js"></script>
 
-    <script src="js/testmap.js"></script>
+    <script src="js/testmappi.js"></script>
   </body>
 </html>

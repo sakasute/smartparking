@@ -51,7 +51,7 @@ function showStopLocations(stopLength) {
 		map.removeLayer(value);
 	});
 
-	$.getJSON("backend/data_handling_tool/outputs/stop_times.json", function( data ) {
+	$.getJSON("backend/data_handling_tool/outputs/stops.json", function( data ) {
 		var stops = $.grep(data, function(value, index) { // filter out stops shorter than given time
 			length = value.stopTimestamp - value.startTimestamp;
 			if (length < stopLength) {
