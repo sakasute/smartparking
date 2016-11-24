@@ -22,27 +22,6 @@ function initmap() {
 	map.addLayer(osm);
 }
 
-// stopLength is time in milliseconds
-function showStopLocations(stopLength) {
-	//$.each(stopMarkers, function(index, value) {
-	//	map.removeLayer(value);
-	//});
-	stopMarkers = [];
-	clearHeatLayer();
-
-	$.getJSON("backend/data_handling_tool/outputs/stops.json", function( data ) {
-		var stops = $.grep(data, function(value, index) { // filter out stops shorter than given time
-			length = value.stopTimestamp - value.startTimestamp;
-			if (length < stopLength) {
-				return false;
-			}
-			stopMarkers.push([value.latitude, value.longitude, 1]); // lat, lng, intensity
-			return true;
-		});
-		heatLayers.push(L.heatLayer(stopMarkers, {radius: 25}).addTo(map));
-	});
-}
-
 function showBatteryThresholdLocations(input) {
 
 	batteryThresholdMarkers = [];
@@ -79,7 +58,7 @@ function showBatteryThresholdLocations(input) {
 		var chargeStatus = "Charging: " + charging + "<br>" + "Not charging: " + notCharging + "<br>"
 
 		var areaMarker = L.marker([lat,lon]).addTo(map);
-		parkingLotMarkers.push([areaMarker])
+		parkingLotMarkers.push([areaMarker]);
 		areaMarker.bindPopup(header+vehicleAmount+chargeStatus);
 		return true;
 	});
@@ -92,13 +71,50 @@ function showChargingStations() {
 
 	$.getJSON("http://api.openchargemap.io/v2/poi/?output=json&latitude=60.1826&longitude=24.9215&distance=50&maxresults=100&compact=true&verbose=false", function( data ) {
 		$.each(data, function(index, value) {
-			chargers.push([value.AddressInfo.Latitude, value.AddressInfo.Longitude]);
-		});
-		$.each(chargers, function(index, value) {
-			markers.push(L.marker(value).addTo(map));
+
+			var title = value.AddressInfo.Title;
+			var address = value.AddressInfo.AddressLine1;
+			var points = value.NumberOfPoints;
+			var lat = value.AddressInfo.Latitude;
+			var lon = value.AddressInfo.Longitude;
+			var powers = [];
+			var connections = "";
+
+			$.each(value.Connections, function(index, value) {
+				if (!powers.contains(value.PowerKW)) powers.push(value.PowerKW);
+			});
+			$.each(powers, function(index, value) {
+				if (typeof value!== 'undefined') {
+					connections += value + "kW" + ", "
+				}
+				
+			});
+			if(connections.length == 0) connections = "No given data";
+			else connections = connections.slice(0, -2); //drop the last ", " lazy i know
+
+			var header = "<b>"+title+"</b><br>"
+			var addressText = "Address: " + address+"<br>";
+			var chargingPoints = "Charging points: " + points+"<br>";
+			var powers = "Power: " + connections + "<br>";
+
+			var marker = L.marker([lat,lon]).addTo(map);
+			marker.bindPopup(header+addressText+chargingPoints+powers);
+			markers.push([marker]);
+			
 		});
 	});
 }
+
+Array.prototype.contains = function(obj) {
+    var i = this.length;
+    while (i--) {
+        if (this[i] === obj) {
+            return true;
+        }
+    }
+    return false;
+}
+
 
 function clearHeatLayer() {
 	$.each(heatLayers, function(index, value) {
@@ -116,7 +132,7 @@ function clearParkingLotMarkers() {
 
 function clearChargers() {
 	$.each(markers, function(index, value) {
-		map.removeLayer(value);
+		map.removeLayer(value[0]);
 	});
 	markers = [];
 	chargers = [];
@@ -133,9 +149,7 @@ function clearAll() {
 
 
 $( document ).ready(function() {
-    initmap();
-	//refreshBusLocations();
-	//setInterval(refreshBusLocations, 5000);
+	initmap();
 
 	$.getJSON("backend/data_handling_tool/outputs/stops.json", function( data ) {
 		$.each(data, function(index, value) {
