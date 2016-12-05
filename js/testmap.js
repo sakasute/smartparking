@@ -57,7 +57,7 @@ function showStopLocations(stopLength) {
 			if (length < stopLength) {
 				return false;
 			}
-			stopMarkers.push([value.Latitude, value.Longitude, 10]); // lat, lng, intensity
+			stopMarkers.push([value.Latitude, value.Longitude, 1]); // lat, lng, intensity
 			return true;
 		});
 		heatLayers.push(L.heatLayer(stopMarkers, {radius: 30}).addTo(map));

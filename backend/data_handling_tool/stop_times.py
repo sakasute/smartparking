@@ -38,12 +38,12 @@ def sort_by_time(time_locations):
 
 stops = []
 
-with open("outputs/prepared_data.json") as data_file:
+with open("outputs/prepared_with_battery.json") as data_file:
     data = json.load(data_file)
     
     for vehicle in data:
         
-        vehicle_history = sort_by_time(data[vehicle])
+        vehicle_history = data[vehicle] #sort_by_time(data[vehicle])
         
         latest_loc = vehicle_history[0]
         
@@ -65,6 +65,7 @@ with open("outputs/prepared_data.json") as data_file:
                 stop_info['StopTimestamp'] = stop_time
                 stop_info['Latitude'] = latest_loc['Latitude']
                 stop_info['Longitude'] = latest_loc['Longitude']
+                stop_info['Batterylevel'] = latest_loc['Batterylevel']
                 stops.append(stop_info)
                 
             latest_loc = location
