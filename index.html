@@ -26,13 +26,12 @@
     <div id="testmap"></div>
 
     <div id="controls">
-      <div class="col-lg-3">
-        <div class="input-group">
-          <input id="stopTimeInput" type="text" class="form-control" placeholder="Stopping time in seconds">
-          <span class="input-group-btn">
-            <button id="stopTimeButton" class="btn btn-default" type="button">Go!</button>
-          </span>
-        </div>
+      <div class="col-lg-2">
+        <input id="startTimeInput" type="text" class="form-control" placeholder="Start timestamp">
+        <input id="stopTimeInput" type="text" class="form-control" placeholder="Stop timestamp">
+        <span class="input-group-btn">
+          <button id="filterByTimeButton" class="btn btn-default" type="button">OK</button>
+        </span>
       </div>
     </div>
 
@@ -45,6 +44,6 @@
     <!-- Leaflet heatmap -->
     <script src="leaflet/leaflet-heat.js"></script>
 
-    <script src="js/testmap.js"></script>
+    <script src="js/proto.js"></script>
   </body>
 </html>
