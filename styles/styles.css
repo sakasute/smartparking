@@ -7,5 +7,10 @@ html, body {
 }
 
 #controls {
+  background: rgb(97, 97, 97);
   height: 10%;
+}
+
+#sliderControl .slider-selection {
+	background: #BABABA;
 }

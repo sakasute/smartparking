@@ -25,7 +25,7 @@ function loadData() {
   $.getJSON("backend/data_handling_tool/outputs/stop_times.json")
   .done(function( data ) {
     stopData = data;
-  })
+  });
 }
 
 // returns stops that have occured between given times
@@ -39,12 +39,23 @@ function filterByTime(inputData, startTime, stopTime) {
   return filteredData;
 }
 
+function filterByLength(inputData, minLength, maxLength) {
+  var filteredData = $.grep(inputData, function(value, index){
+    var length = (value.StopTimestamp - value.StartTimestamp)/1000;
+    if (length < minLength || length > maxLength) {
+      return false;
+    }
+    return true;
+  });
+  return filteredData;
+}
+
 function filterByBattery(inputData, minLevel, maxLevel) {
   var filteredData = $.grep(inputData, function(value, index) {
     if (value.Batterylevel < minLevel || value.Batterylevel > maxLevel) {
-      return false
+      return false;
     }
-    return true
+    return true;
   });
   return filteredData;
 }
@@ -58,8 +69,12 @@ function getHeatmapData(inputData) {
 }
 
 function drawHeatmap(inputData) {
+  $.each(heatLayers, function(index, value) {
+		map.removeLayer(value);
+	});
+
   var heatmapData = getHeatmapData(inputData);
-  L.heatLayer(heatmapData, {radius: 10}).addTo(map);
+  heatLayers.push(L.heatLayer(heatmapData, {radius: 10}).addTo(map));
 }
 
 
@@ -68,9 +83,23 @@ $( document ).ready(function() {
     initmap();
     loadData();
 
-    $("#filterByTimeButton").click(function(){
-			var startTime = $("#startTimeInput").val();
-      var stopTime = $("#stopTimeInput").val();
-			filterByTime(stopData, startTime, stopTime);
-		});
+    var timeSlider = $("#filterByTimeSlider").slider().data("slider");
+    var lengthSlider = $("#filterByLengthSlider").slider().data("slider");
+    var batterySlider = $("#filterByBatterySlider").slider().data("slider");
+
+    $("#filterButton").click(function() {
+      var startTime = timeSlider.getValue()[0];
+      var stopTime = timeSlider.getValue()[1];
+      var minLength = lengthSlider.getValue()[0];
+      var maxLength = lengthSlider.getValue()[1];
+      var minLevel = batterySlider.getValue()[0];
+      var maxLevel = batterySlider.getValue()[1];
+
+      var filteredByTime = filterByTime(stopData, startTime, stopTime);
+      var filteredByTimeAndLength = filterByLength(filteredByTime, minLength, maxLength);
+      var filteredData = filterByBattery(filteredByTimeAndLength, minLevel, maxLevel);
+
+      console.log(filteredData);
+      drawHeatmap(filteredData);
+    });
 });
