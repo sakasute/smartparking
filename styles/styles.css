@@ -4,11 +4,11 @@ html, body {
 }
 
 #testmap {
-  height: 80%;
+  height: 75%;
 }
 
 #controls {
-  height: 20%;
+  height: 25%;
   margin: 10px 10px 10px 10px;
 }
 
@@ -24,14 +24,20 @@ html, body {
   margin: 10px 0px 10px 0px;
 }
 
-.middleSlider {
-  padding: 10px 0px 10px 0px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+
+h5 {
+  margin: 0px 0px 0px 0px;
 }
 
-
+.disabled-options {
+  border-left: 1px solid #d2d2d2;
+}
 
 #datepicker {
   width: 160px;
+}
+
+.big-btn {
+  width: 100%;
+  height: 100px;
 }
