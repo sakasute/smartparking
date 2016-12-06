@@ -3,11 +3,13 @@ var ajaxRequest;
 var plotlist;
 var plotlayers=[];
 var heatLayers = [];
+var parkingHeatLayers = [];
 
 var stopData = null;
 var chargers = [];
 var chargeMarkers = [];
 var vehicleLocations = [];
+var locations = []; //parking data
 
 function initmap() {
 	// set up the map
@@ -124,9 +126,27 @@ function secondsToMinS(seconds) {
 	}
 }
 
+/*
+* == Parking lot data functions by Timo ==
+*/
+
+function fetchLocations() {
+	locations = [];
+	$.getJSON("backend/data_handling_tool/outputs/parkinglot.json", function( data ) {
+		$.each(data, function(index, value) {
+			locations.push([value]);
+		});
+	});
+}
+
+/*
+* == Main program ==
+*/
 $( document ).ready(function() {
     initmap();
     loadData();
+
+		//fetchLocations(); // parkinglot data
 
     var timeSlider = $("#filterByTimeSlider").slider().data("slider");
     var lengthSlider = $("#filterByLengthSlider").slider().data("slider");
@@ -163,6 +183,10 @@ $( document ).ready(function() {
 				drawHeatmap(filteredData);
 			} else {
 				removeHeatmap();
+			}
+
+			if ($("#parkingDataFlag.").is(":checked")) {
+
 			}
 
 
