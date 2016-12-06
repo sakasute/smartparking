@@ -28,22 +28,63 @@
     <div id="testmap"></div>
 
     <div id="controls">
-      <div class="col-lg-3">
-        <b>00:00</b>
-        <input id="filterByTimeSlider" data-slider-id="timeSlider" type="text" class="span2" value="" data-slider-min="1479254400000" data-slider-max="1479340799000" data-slider-step="1000" data-slider-value="[1479254400000,1479340799000]"/>
-        <b>23:59</b>
-      </div>
-      <div class="col-lg-3">
-        <b>0 s</b>
-        <input id="filterByLengthSlider" data-slider-id="lengthSlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="1" data-slider-value="[0,300]"/>
-        <b>300 s</b>
-      </div>
-      <div class="col-lg-3">
-        <b>0 %</b>
-        <input id="filterByBatterySlider" data-slider-id="batterySlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="[0,100]"/>
-        <b>100 %</b>
-      </div>
-      <div class="col-lg-3">
+
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+              <h3 class="panel-title pull-left">Filters</h3>
+              <div class="input-group pull-right" id="datepicker">
+                <span class="input-group-addon" id="basic-addon1">Date</span>
+                <input type="text" class="form-control" placeholder="16-11-2016" aria-describedby="basic-addon1" disabled>
+              </div>
+            </div>
+            <div class="panel-body">
+
+              <div class="row sliderControl">
+                <h5>Time of day</h5>
+                <div class="col-md-2">
+                  <b>00:00</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByTimeSlider" data-slider-id="timeSlider" type="text" class="span2" value="" data-slider-min="1479254400000" data-slider-max="1479340799000" data-slider-step="1000" data-slider-value="[1479254400000,1479340799000]"/>
+                </div>
+                <div class="col-md-2">
+                  <b>23:59</b>
+                </div>
+              </div>
+
+              <div class="row sliderControl middleSlider">
+                <h5>Stop length</h5>
+                <div class="col-md-2">
+                  <b>0 s</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByLengthSlider" data-slider-id="lengthSlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="1" data-slider-value="[0,300]"/>
+                </div>
+                <div class="col-md-2">
+                  <b>300 s</b>
+                </div>
+              </div>
+
+              <div class="row sliderControl">
+                <h5>Battery level</h5>
+                <div class="col-md-2">
+                  <b>0 %</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByBatterySlider" data-slider-id="batterySlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="[0,100]"/>
+                </div>
+                <div class="col-md-2">
+                  <b>100 %</b>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      <div class="col-md-3">
         <button id="filterButton" type="button" class="btn btn-primary">Filter!</button>
       </div>
     </div>
