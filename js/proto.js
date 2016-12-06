@@ -6,6 +6,7 @@ var heatLayers = [];
 var parkingHeatLayers = [];
 
 var stopData = null;
+var parkData = null;
 var chargers = [];
 var chargeMarkers = [];
 var vehicleLocations = [];
@@ -29,6 +30,10 @@ function loadData() {
   $.getJSON("backend/data_handling_tool/outputs/stop_times.json")
   .done(function( data ) {
     stopData = data;
+  });
+	$.getJSON("backend/data_handling_tool/outputs/parking_lot_stops.json")
+  .done(function( data ) {
+    parkData = data;
   });
 	$.getJSON("http://api.openchargemap.io/v2/poi/?output=json&latitude=60.1826&longitude=24.9215&distance=50&maxresults=100&compact=true&verbose=false", function( data ) {
 		$.each(data, function(index, value) {
@@ -91,8 +96,6 @@ function getHeatmapData(inputData) {
 }
 
 function drawHeatmap(inputData) {
-  removeHeatmap();
-
   var heatmapData = getHeatmapData(inputData);
   heatLayers.push(L.heatLayer(heatmapData, {radius: 25}).addTo(map));
 }
@@ -124,19 +127,6 @@ function secondsToMinS(seconds) {
 	} else {
 		return Math.floor(parseInt(seconds)/60).toString() + " min " + (parseInt(seconds)%60).toString() + " s";
 	}
-}
-
-/*
-* == Parking lot data functions by Timo ==
-*/
-
-function fetchLocations() {
-	locations = [];
-	$.getJSON("backend/data_handling_tool/outputs/parkinglot.json", function( data ) {
-		$.each(data, function(index, value) {
-			locations.push([value]);
-		});
-	});
 }
 
 /*
@@ -175,18 +165,20 @@ $( document ).ready(function() {
       var minLevel = batterySlider.getValue()[0];
       var maxLevel = batterySlider.getValue()[1];
 
-      var filteredByTime = filterByTime(stopData, startTime, stopTime);
-      var filteredByTimeAndLength = filterByLength(filteredByTime, minLength, maxLength);
-      var filteredData = filterByBattery(filteredByTimeAndLength, minLevel, maxLevel);
+			removeHeatmap();
 
       if ($("#trafficDataFlag").is(":checked")) {
+				var filteredByTime = filterByTime(stopData, startTime, stopTime);
+	      var filteredByTimeAndLength = filterByLength(filteredByTime, minLength, maxLength);
+	      var filteredData = filterByBattery(filteredByTimeAndLength, minLevel, maxLevel);
 				drawHeatmap(filteredData);
-			} else {
-				removeHeatmap();
 			}
 
-			if ($("#parkingDataFlag.").is(":checked")) {
-
+			if ($("#parkingDataFlag").is(":checked")) {
+				var parkTimeFiltered = filterByTime(parkData, startTime, stopTime);
+				var parkTimeAndLengthFiltered = filterByLength(parkTimeFiltered, minLength, 36000); // doesn't respect max length slider
+	      var filteredParkData = filterByBattery(parkTimeAndLengthFiltered, minLevel, maxLevel);
+				drawHeatmap(filteredParkData);
 			}
 
 
