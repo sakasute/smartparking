@@ -29,10 +29,15 @@
       <div class="col-lg-3">
         <div class="input-group">
 
-          <!--<input id="stopTimeInput" type="text" class="form-control" placeholder="Stopping time in seconds">
+          <input id="startTimeInput" type="text" class="form-control" placeholder="Set start time">
           <span class="input-group-btn">
-            <button id="stopTimeButton" class="btn btn-default" type="button">Go!</button>
-          </span>-->
+            <button id="startTimeButton" class="btn btn-default" type="button">Set start</button>
+          </span>
+
+          <input id="stopTimeInput" type="text" class="form-control" placeholder="Set end time">
+          <span class="input-group-btn">
+            <button id="stopTimeButton" class="btn btn-default" type="button">Set end</button>
+          </span>
 
           <!--<input id="batteryLevelInput" type="text" class="form-control" placeholder="Battery level">-->
           <span class="input-group-btn">
@@ -40,15 +45,19 @@
           </span>
 
           <span class="input-group-btn">
-            <button id="lowBatteryButton" class="btn btn-default" type="button">Show non-charging vehicles</button>
+            <button id="lowBatteryButton" class="btn btn-default" type="button">Highlight non-charging vehicles</button>
           </span>
 
           <span class="input-group-btn">
-            <button id="highBatteryButton" class="btn btn-default" type="button">Show charging vehicles</button>
+            <button id="highBatteryButton" class="btn btn-default" type="button">Highlight charging vehicles</button>
           </span>
 
           <span class="input-group-btn">
             <button id="showChargersButton" class="btn btn-default" type="button">Show chargers</button>
+          </span>
+
+          <span class="input-group-btn">
+            <button id="clearChargersButton" class="btn btn-default" type="button">Clear chargers</button>
           </span>
 
           <span class="input-group-btn">
