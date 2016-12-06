@@ -43,13 +43,13 @@
               <div class="row sliderControl">
                 <h5>Time of day</h5>
                 <div class="col-md-2">
-                  <b>00:00</b>
+                  <b id="timeSliderVal1">00:00</b>
                 </div>
                 <div class="col-md-8">
-                  <input id="filterByTimeSlider" data-slider-id="timeSlider" type="text" class="span2" value="" data-slider-min="1479254400000" data-slider-max="1479340799000" data-slider-step="1000" data-slider-value="[1479254400000,1479340799000]"/>
+                  <input id="filterByTimeSlider" data-slider-id="timeSlider" type="text" class="span2" value="" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="1479247200000" data-slider-max="1479333000000" data-slider-step="600000" data-slider-value="[1479247200000,1479333000000]"/>
                 </div>
                 <div class="col-md-2">
-                  <b>23:59</b>
+                  <b id="timeSliderVal2">23:50</b>
                 </div>
               </div>
 
@@ -58,13 +58,13 @@
               <div class="row sliderControl middleSlider">
                 <h5>Stop length</h5>
                 <div class="col-md-2">
-                  <b>0 s</b>
+                  <b id="lengthSliderVal1">0 min 0 s</b>
                 </div>
                 <div class="col-md-8">
-                  <input id="filterByLengthSlider" data-slider-id="lengthSlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="1" data-slider-value="[0,300]"/>
+                  <input id="filterByLengthSlider" data-slider-id="lengthSlider" type="text" class="span2" value="" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="0" data-slider-max="1800" data-slider-step="10" data-slider-value="[0,1800]"/>
                 </div>
                 <div class="col-md-2">
-                  <b>300 s</b>
+                  <b id="lengthSliderVal2">30 min 0 s</b>
                 </div>
               </div>
 
@@ -73,13 +73,13 @@
               <div class="row sliderControl">
                 <h5>Battery level</h5>
                 <div class="col-md-2">
-                  <b>0 %</b>
+                  <b id="batterySliderVal1">0 %</b>
                 </div>
                 <div class="col-md-8">
-                  <input id="filterByBatterySlider" data-slider-id="batterySlider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="[0,100]"/>
+                  <input id="filterByBatterySlider" data-slider-id="batterySlider" type="text" class="span2" value="" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="[0,100]"/>
                 </div>
                 <div class="col-md-2">
-                  <b>100 %</b>
+                  <b id="batterySliderVal2">100 %</b>
                 </div>
               </div>
             </div>
@@ -96,13 +96,13 @@
             <div class="panel-body">
               <div class="col-md-6">
                 <div class="checkbox">
-                  <label><input type="checkbox" value="" checked>Traffic data</label>
+                  <label><input id="trafficDataFlag" type="checkbox" value="" checked>Traffic data</label>
                 </div>
                 <div class="checkbox">
-                  <label><input type="checkbox" value="" checked>Parking lot data</label>
+                  <label><input id="parkingDataFlag" type="checkbox" value="" checked>Parking lot data</label>
                 </div>
                 <div class="checkbox">
-                  <label><input type="checkbox" value="" checked>Chargers</label>
+                  <label><input id="chargersFlag" type="checkbox" value="" checked>Chargers</label>
                 </div>
               </div>
               <div class="col-md-6 disabled-options">
@@ -116,6 +116,9 @@
                   <label><input type="checkbox" value="" disabled><del>Rented cars</del></label>
                 </div>
               </div>
+
+
+
 
 
 

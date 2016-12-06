@@ -5,6 +5,8 @@ var plotlayers=[];
 var heatLayers = [];
 
 var stopData = null;
+var chargers = [];
+var chargeMarkers = [];
 var vehicleLocations = [];
 
 function initmap() {
@@ -26,6 +28,24 @@ function loadData() {
   .done(function( data ) {
     stopData = data;
   });
+	$.getJSON("http://api.openchargemap.io/v2/poi/?output=json&latitude=60.1826&longitude=24.9215&distance=50&maxresults=100&compact=true&verbose=false", function( data ) {
+		$.each(data, function(index, value) {
+			chargers.push([value.AddressInfo.Latitude, value.AddressInfo.Longitude]);
+		});
+	});
+}
+
+function showChargingStations() {
+	removeChargingStations();
+	$.each(chargers, function(index, value) {
+		chargeMarkers.push(L.marker(value).addTo(map));
+	});
+}
+
+function removeChargingStations() {
+	$.each(chargeMarkers, function(index, value) {
+		map.removeLayer(value);
+	});
 }
 
 // returns stops that have occured between given times
@@ -63,21 +83,46 @@ function filterByBattery(inputData, minLevel, maxLevel) {
 function getHeatmapData(inputData) {
   var locations = [];
   $.each(inputData, function(index, value){
-    locations.push([value.Latitude, value.Longitude, 1]); // lat, long, intensity
+    locations.push([value.Latitude, value.Longitude, 2]); // lat, long, intensity
   });
   return locations;
 }
 
 function drawHeatmap(inputData) {
-  $.each(heatLayers, function(index, value) {
-		map.removeLayer(value);
-	});
+  removeHeatmap();
 
   var heatmapData = getHeatmapData(inputData);
-  heatLayers.push(L.heatLayer(heatmapData, {radius: 10}).addTo(map));
+  heatLayers.push(L.heatLayer(heatmapData, {radius: 25}).addTo(map));
 }
 
+function removeHeatmap() {
+	$.each(heatLayers, function(index, value) {
+		map.removeLayer(value);
+	});
+}
 
+function epochToClock(epochInMillis) {
+	var epochInS = Math.floor(epochInMillis/1000);
+	var d = new Date(0);
+	d.setUTCSeconds(epochInS);
+	var hours = d.getHours();
+	var minutes = d.getMinutes();
+	if (parseInt(hours) < 10) {
+		hours = "0" + hours;
+	}
+	if (parseInt(minutes) < 10) {
+		minutes = "0" + minutes;
+	}
+	return hours + ":" + minutes;
+}
+
+function secondsToMinS(seconds) {
+	if (parseInt(seconds < 60)) {
+		return seconds + " s";
+	} else {
+		return Math.floor(parseInt(seconds)/60).toString() + " min " + (parseInt(seconds)%60).toString() + " s";
+	}
+}
 
 $( document ).ready(function() {
     initmap();
@@ -86,6 +131,21 @@ $( document ).ready(function() {
     var timeSlider = $("#filterByTimeSlider").slider().data("slider");
     var lengthSlider = $("#filterByLengthSlider").slider().data("slider");
     var batterySlider = $("#filterByBatterySlider").slider().data("slider");
+
+		$("#filterByTimeSlider").on("slide", function(slideEvt) {
+			$("#timeSliderVal1").text(epochToClock(slideEvt.value[0]));
+			$("#timeSliderVal2").text(epochToClock(slideEvt.value[1]));
+		});
+
+		$("#filterByLengthSlider").on("slide", function(slideEvt) {
+			$("#lengthSliderVal1").text(secondsToMinS(slideEvt.value[0]));
+			$("#lengthSliderVal2").text(secondsToMinS(slideEvt.value[1]));
+		});
+
+		$("#filterByBatterySlider").on("slide", function(slideEvt) {
+			$("#batterySliderVal1").text(slideEvt.value[0] + " %");
+			$("#batterySliderVal2").text(slideEvt.value[1] + " %");
+		});
 
     $("#filterButton").click(function() {
       var startTime = timeSlider.getValue()[0];
@@ -99,7 +159,17 @@ $( document ).ready(function() {
       var filteredByTimeAndLength = filterByLength(filteredByTime, minLength, maxLength);
       var filteredData = filterByBattery(filteredByTimeAndLength, minLevel, maxLevel);
 
-      console.log(filteredData);
-      drawHeatmap(filteredData);
+      if ($("#trafficDataFlag").is(":checked")) {
+				drawHeatmap(filteredData);
+			} else {
+				removeHeatmap();
+			}
+
+
+			if ($("#chargersFlag").is(":checked")) {
+				showChargingStations();
+			} else {
+				removeChargingStations();
+			}
     });
 });

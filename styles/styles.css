@@ -4,12 +4,12 @@ html, body {
 }
 
 #testmap {
-  height: 75%;
+  height: 70%;
 }
 
 #controls {
-  height: 25%;
-  margin: 10px 10px 10px 10px;
+  height: 30%;
+  padding-top: 25px;
 }
 
 .slider-selection {
@@ -27,6 +27,7 @@ html, body {
 
 h5 {
   margin: 0px 0px 0px 0px;
+  text-align: center;
 }
 
 .disabled-options {
@@ -36,6 +37,8 @@ h5 {
 #datepicker {
   width: 160px;
 }
+
+
 
 .big-btn {
   width: 100%;
