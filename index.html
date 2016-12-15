@@ -10,6 +10,8 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="bootstrap-slider/bootstrap-slider.min.css" rel="stylesheet">
     <!-- Leaflet -->
     <link href="leaflet/leaflet.css" rel="stylesheet">
 
@@ -26,13 +28,110 @@
     <div id="testmap"></div>
 
     <div id="controls">
-      <div class="col-lg-3">
-        <div class="input-group">
-          <input id="stopTimeInput" type="text" class="form-control" placeholder="Stopping time in seconds">
-          <span class="input-group-btn">
-            <button id="stopTimeButton" class="btn btn-default" type="button">Go!</button>
-          </span>
+
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+              <h3 class="panel-title pull-left">Filter stopped vehicles</h3>
+              <div class="input-group pull-right" id="datepicker">
+                <span class="input-group-addon" id="basic-addon1">Date</span>
+                <input type="text" class="form-control" placeholder="16-11-2016" aria-describedby="basic-addon1" disabled>
+              </div>
+            </div>
+            <div class="panel-body">
+
+              <div class="row sliderControl">
+                <h5>Time of day</h5>
+                <div class="col-md-2">
+                  <b id="timeSliderVal1">00:00</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByTimeSlider" data-slider-id="timeSlider" type="text" class="span2" value="" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="1479247200000" data-slider-max="1479333000000" data-slider-step="600000" data-slider-value="[1479247200000,1479333000000]"/>
+                </div>
+                <div class="col-md-2">
+                  <b id="timeSliderVal2">23:50</b>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row sliderControl middleSlider">
+                <h5>Stop length</h5>
+                <div class="col-md-2">
+                  <b id="lengthSliderVal1">0 min 20 s</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByLengthSlider" data-slider-id="lengthSlider" type="text" class="span2" value="" data-slider-scale="logarithmic" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="0" data-slider-max="18000" data-slider-step="10" data-slider-value="[20,1800]"/>
+                </div>
+                <div class="col-md-2">
+                  <b id="lengthSliderVal2">30 min 0 s</b>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row sliderControl">
+                <h5>Battery level</h5>
+                <div class="col-md-2">
+                  <b id="batterySliderVal1">0 %</b>
+                </div>
+                <div class="col-md-8">
+                  <input id="filterByBatterySlider" data-slider-id="batterySlider" type="text" class="span2" value="" data-slider-focus="true" data-slider-tooltip="hide" data-slider-min="0" data-slider-max="100" data-slider-step="5" data-slider-value="[0,100]"/>
+                </div>
+                <div class="col-md-2">
+                  <b id="batterySliderVal2">100 %</b>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Data types</h3>
+            </div>
+            <div class="panel-body">
+              <div class="col-md-6">
+                <div class="checkbox">
+                  <label><input id="trafficDataFlag" type="checkbox" value="" checked>Traffic data</label>
+                </div>
+                <div class="checkbox">
+                  <label><input id="parkingDataFlag" type="checkbox" value="" checked>Parking lot data</label>
+                </div>
+                <div class="checkbox">
+                  <label><input id="chargersFlag" type="checkbox" value="" checked>Chargers</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" disabled><del>Show only charging cars</del></label>
+                </div>
+              </div>
+              <div class="col-md-6 disabled-options">
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" disabled><del>Private cars</del></label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" disabled><del>Shared cars</del></label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="" disabled><del>Rented cars</del></label>
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      <div class="col-md-3">
+        <button id="filterButton" type="button" class="btn btn-primary big-btn">Refresh heatmap!</button>
       </div>
     </div>
 
@@ -40,11 +139,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="bootstrap-slider/bootstrap-slider.min.js"></script>
     <!-- Leaflet -->
     <script src="leaflet/leaflet.js"></script>
     <!-- Leaflet heatmap -->
     <script src="leaflet/leaflet-heat.js"></script>
 
-    <script src="js/testmap.js"></script>
+    <script src="js/proto.js"></script>
   </body>
 </html>
