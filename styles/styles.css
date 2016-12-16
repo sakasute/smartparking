@@ -1,15 +1,15 @@
 html, body {
-  background: #505050;
   height: 100%;
+  background: #505050;
 }
 
 #testmap {
-  height: 70%;
+  height: 65%;
 }
 
 #controls {
-  height: 30%;
-  padding-top: 25px;
+  padding: 25px;
+  height: 35%
 }
 
 .slider-selection {
