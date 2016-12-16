@@ -1,0 +1,5656 @@
+[
+  {
+    "GeneralComments": "Phone call opens the cover. Phone number on the cover. Membership still required.",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24100,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 17.0,
+        "ID": 26125,
+        "Quantity": 4
+      },
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "Amps": 13,
+        "ID": 26128,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2015-03-27T21:50:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 0.18709214309404137,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Töölön Kisahallin pysäköinti",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.9267446994781,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Phone call",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Paavo Nurmen Kuja 1",
+      "Latitude": 60.1833284127847,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24445
+    },
+    "DateCreated": "2014-06-20T09:12:00Z",
+    "UsageTypeID": 4,
+    "UUID": "20837FDE-21F3-4B1B-8181-6FAF703809B9"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30785,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 2",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 34014,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-02-14T13:12:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki Keskusta",
+      "Distance": 0.7250135030156716,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Q-Park Finlandia talo",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.93527,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "kerros - 2 Finlandia-talon sisäänkäynnin edessä",
+      "AddressLine2": "",
+      "Postcode": "00100",
+      "AddressLine1": "Karamzininranta 2",
+      "Latitude": 60.17465,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31131
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "0DAA62C9-044F-46F8-A24D-C9A3A69F36B0"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "E53FB3B5-46A8-4299-A7B1-6DC3EA1EED79",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-05-03T00:54:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 57084
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "2",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88889
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1169",
+    "ID": 46421,
+    "AddressInfo": {
+      "Town": "Helsinki Keskusta",
+      "Distance": 0.9493752789081534,
+      "CountryID": 79,
+      "Title": "P-Eliel",
+      "DistanceUnit": 2,
+      "Longitude": 24.93939,
+      "AccessComments": "",
+      "Postcode": "00100",
+      "AddressLine1": "Elielinaukio ",
+      "Latitude": 60.17213,
+      "StateOrProvince": "Uusimaa",
+      "ID": 46767
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1037,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24643,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26940,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50183,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-27T21:52:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 0.9750988757051349,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Säästöpankinranta",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.9491215,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Street",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Säästöpankinranta 2",
+      "Latitude": 60.1793608,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24989
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "F9B393B2-33AD-4475-88E0-0E84B7E0F24D"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "8A635A6F-F4FC-45BF-9CAC-76AADBA62984",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-11-06T03:39:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 71504
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86499
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86500
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 88884
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3102",
+    "ID": 56705,
+    "AddressInfo": {
+      "Town": "Helsinki Keskusta",
+      "Distance": 1.031679266466121,
+      "CountryID": 79,
+      "Title": "P-CityForum, F-alue (1135)",
+      "DistanceUnit": 2,
+      "Longitude": 24.93553,
+      "AccessComments": "P-CityForumin paikoitustalo",
+      "Postcode": "00100",
+      "AddressLine1": "Simonkatu 7",
+      "Latitude": 60.1694,
+      "StateOrProvince": "Uusimaa",
+      "ID": 57051
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30791,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 34020,
+        "Quantity": 4
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50209,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2015-07-29T09:18:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Länsi-Pasila",
+      "Distance": 1.0420270269640923,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Esterinportti parkkipaikka",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.92791,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "00240",
+      "AddressLine1": "Esterinportti 1",
+      "Latitude": 60.19734,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31137
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "235DB893-7C48-43D0-9B39-AEA3069654B0"
+  },
+  {
+    "GeneralComments": "You need a access card for fast charge.",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1042,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24648,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26945,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 400,
+        "PowerKW": 40.0,
+        "Amps": 64,
+        "ID": 26946,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-27T21:52:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.08103231817364,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Sähkötalo",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.930623173713684,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "on the street",
+      "AddressLine2": "",
+      "Postcode": "00100",
+      "AddressLine1": "Runeberginkatu 1",
+      "Latitude": 60.16762742053808,
+      "StateOrProvince": "Uusimaa, Kamppi",
+      "ID": 24994
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "5C5404B8-D8AB-4FFA-86DE-64F58B245D4D"
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1039,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24645,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26942,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-10-27T20:07:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.1335897030586768,
+      "CountryID": 79,
+      "Title": "P-Kluuvi / Europark Oy",
+      "DistanceUnit": 2,
+      "Longitude": 24.9484846,
+      "AccessComments": "Parking garage P Kluuvi",
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "AddressLine1": "Puutarhakatu 1",
+      "Latitude": 60.173163,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24991
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 5,
+    "UUID": "A724B2FC-7FB3-4878-97D5-6DB4F54FD5E8"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1041,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24647,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26944,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-03-27T21:52:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.1543636352091,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Fredrikinkati 51-53",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.9335709,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "on the street",
+      "AddressLine2": "",
+      "Postcode": "00100",
+      "AddressLine1": "Fredrikinkatu 51-53",
+      "Latitude": 60.1670097,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24993
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "919CB057-3396-4208-AEA3-1F012F212511"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "639C9DBD-E15D-466C-A38C-41210E7467BC",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 34013
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "2",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88885
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1172",
+    "ID": 30784,
+    "AddressInfo": {
+      "Town": "Helsinki Keskusta",
+      "Distance": 1.1926307154878852,
+      "CountryID": 79,
+      "Title": "P-Kluuvi / EuroPark - Helsinki",
+      "DistanceUnit": 2,
+      "Longitude": 24.94617,
+      "AccessComments": "",
+      "Postcode": "00100",
+      "AddressLine1": "Puutarhakatu 1",
+      "Latitude": 60.17046,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31130
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1040,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24646,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26943,
+        "Quantity": 6
+      }
+    ],
+    "NumberOfPoints": 6,
+    "DateLastStatusUpdate": "2014-10-27T20:09:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.1926716686583634,
+      "CountryID": 79,
+      "Title": "P-Stockmann",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "Longitude": 24.9407402,
+      "AccessComments": "Parking Garage",
+      "Postcode": "00100",
+      "AddressLine1": "Mannerheimintie 10",
+      "Latitude": 60.1682346,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24992
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "60380D64-B1D7-47BD-A8EA-A13ABF72EB52"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "CD748EEC-EBC0-4604-91B8-D879B8C77CFC",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 78198
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2948",
+    "ID": 61402,
+    "AddressInfo": {
+      "Town": "Itä-Pasila",
+      "Distance": 1.2509340898811063,
+      "CountryID": 79,
+      "Title": "Q-Park Vallila",
+      "DistanceUnit": 2,
+      "Longitude": 24.94846,
+      "AccessComments": "Pysäköintilaitoksen alemmassa kerroksessa.",
+      "Postcode": "00520",
+      "AddressLine1": "Elimäenkatu 15",
+      "Latitude": 60.19477,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61748
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "C0D52036-54AF-43A5-8A57-CE5D13DB063F",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 78195
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86487
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86488
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86489
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "5",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86490
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "6",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86491
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "7",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86492
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "8",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86493
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "9",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86494
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "10",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 0,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 88877
+      }
+    ],
+    "NumberOfPoints": 10,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3267",
+    "ID": 61399,
+    "AddressInfo": {
+      "Town": "Ruoholahti",
+      "Distance": 1.321707196565141,
+      "CountryID": 79,
+      "Title": "Cargotecin pääkonttori",
+      "DistanceUnit": 2,
+      "Longitude": 24.90942,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa",
+      "Postcode": "00180",
+      "AddressLine1": "Porkkalankatu 5",
+      "Latitude": 60.16444,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61745
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1038,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24644,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26941,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50181,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-03-27T21:52:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.4961780560700875,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Pohjoinen Makasiinikatu 9",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.9487488,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "On the street",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Pohjoinen Makasiinikatu 9",
+      "Latitude": 60.1657126,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24990
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "4C28F120-5A4A-443A-928D-12F689FBF2B2"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1044,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24650,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26948,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-03-27T21:48:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.5116416555828585,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Tammasaarenkatu 7",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virts.fi",
+      "Longitude": 24.90652084350586,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Tammasaarenkatu 7",
+      "Latitude": 60.162030877610974,
+      "StateOrProvince": "Uusimaa, Ruoholahti",
+      "ID": 24996
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "81AE746A-ED73-4C25-AEB2-FB6D08D0309F"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1043,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24649,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26947,
+        "Quantity": 3
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 30,
+        "Voltage": 235,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 105412,
+        "Quantity": 1
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 24649,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24649/OCM-24649.orig.2016111321544336.jpg",
+        "User": {
+          "Username": "João Nunes",
+          "ReputationPoints": 2,
+          "ID": 12023
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24649/OCM-24649.thmb.2016111321544336.jpg",
+        "DateCreated": "2016-11-13T21:55:00Z",
+        "ID": 8572
+      }
+    ],
+    "NumberOfPoints": 5,
+    "DateLastStatusUpdate": "2016-11-16T11:07:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.8262261650614748,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Verkkokauppa.com",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.verkkokauppa.com",
+      "Longitude": 24.9209402,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Parking garage in Verkkokauppa.com. Note opening hours.",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Tyynenmerenkatu 11",
+      "Latitude": 60.1561718,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24995
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "FDBEF0FF-C4CE-4669-8779-0F393854A23A"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "3783C6CC-15CF-4067-A5A2-BADCC3D1700E",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 78197
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3217",
+    "ID": 61401,
+    "AddressInfo": {
+      "Town": "Verkkosaari",
+      "Distance": 1.834433600849061,
+      "CountryID": 79,
+      "Title": "Sisäpiha",
+      "DistanceUnit": 2,
+      "Longitude": 24.97081,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa.",
+      "Postcode": "00580",
+      "AddressLine1": "Vanha talvitie 11",
+      "Latitude": 60.19279,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61747
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 200cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1045,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24651,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26949,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50182,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-07-29T09:20:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 1.9233793404966795,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Pikku Satamakatu 4-6",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.965542,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "On the street, parking place",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Pikku Satamakatu 4-6",
+      "Latitude": 60.1654246,
+      "StateOrProvince": " Uusimaa",
+      "ID": 24997
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "39CEF13C-A9B8-413E-BE63-713EDC991EB3"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1064,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24670,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26968,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50177,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-27T21:49:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 2.932381114212169,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kuloraasen Metroasema liityntäpysäkki",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.00588059425354,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Kulosaaren puistotie 1",
+      "Latitude": 60.188998667702094,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25016
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "0892222F-2DA2-4671-BC42-DD05632AEC5F"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "?",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 41872,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "Amps": 32,
+        "ID": 50200,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 33,
+        "ID": 50201,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "ID": 50202,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 50203,
+        "Quantity": 3
+      }
+    ],
+    "NumberOfPoints": 6,
+    "DateLastStatusUpdate": "2015-02-15T17:32:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 3.1641330003645454,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Fortum pääkonttori",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.8307298,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Keilaniementie",
+      "Latitude": 60.17489659999999,
+      "StateOrProvince": "",
+      "ID": 42218
+    },
+    "DateCreated": "2015-02-15T13:53:00Z",
+    "UsageTypeID": 1,
+    "UUID": "60ABD023-04F4-4109-AB3A-AAB104AFB955"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "27C44292-F191-4EC2-9C56-EF9E964A090C",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 78196
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86518
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86519
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86520
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "5",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86521
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "6",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86522
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "7",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 0,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 88896
+      }
+    ],
+    "NumberOfPoints": 7,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3265",
+    "ID": 61400,
+    "AddressInfo": {
+      "Town": "Kulosaari",
+      "Distance": 3.195316346096864,
+      "CountryID": 79,
+      "Title": "www.shareitbloxcar.fi",
+      "DistanceUnit": 2,
+      "Longitude": 25.01447,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa",
+      "Postcode": "00570",
+      "AddressLine1": "Lars Sonckin tie 14 A-D",
+      "Latitude": 60.18144,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61746
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1060,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24666,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26964,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 45434,
+        "Quantity": 2
+      }
+    ],
+    "UserComments": [
+      {
+        "UserName": "",
+        "Comment": "Latauspaikat usein tukossa väärin pysäkoidyistä autoista.",
+        "ChargePointID": 24666,
+        "DateCreated": "2015-02-14T12:14:05.733Z",
+        "CommentTypeID": 50,
+        "CheckinStatusTypeID": 110,
+        "ID": 3767
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2015-03-27T21:50:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 3.585617781719809,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Oulunkylän tori, aseman liityntäpysäköinti",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.965878129005432,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Liityntäparkki/Parking",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Oulunkylän tori",
+      "Latitude": 60.22957399477034,
+      "StateOrProvince": "Uusimaa",
+      "ID": 25012
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "3C579EAC-0BAE-4E52-9C1C-FC8237340AE3"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 44,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24105,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26134,
+        "Quantity": 3
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 380,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 108104,
+        "Quantity": 5
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 24105,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24105/OCM-24105.orig.2016120420411059.jpg",
+        "User": {
+          "Username": "Alex",
+          "ReputationPoints": 7,
+          "ID": 9495,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24105/OCM-24105.thmb.2016120420411059.jpg",
+        "DateCreated": "2016-12-04T20:41:00Z",
+        "ID": 8738
+      },
+      {
+        "Comment": "",
+        "ChargePointID": 24105,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24105/OCM-24105.orig.2016120420424357.jpg",
+        "User": {
+          "Username": "Alex",
+          "ReputationPoints": 7,
+          "ID": 9495,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24105/OCM-24105.thmb.2016120420424357.jpg",
+        "DateCreated": "2016-12-04T20:43:00Z",
+        "ID": 8739
+      }
+    ],
+    "NumberOfPoints": 8,
+    "DateLastStatusUpdate": "2016-12-08T09:18:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 3.8724251587701084,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kauppakeskus Kaari",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://plugit.fi/",
+      "Longitude": 24.8924987182344,
+      "ContactEmail": "asiakaspalvelu@plugit.fi",
+      "ContactTelephone1": "+3580207350330",
+      "AccessComments": "Center of parking hall, near entrance to the shopping centre",
+      "AddressLine2": "Kannelmäki",
+      "Postcode": "00420",
+      "AddressLine1": "Kantelettarentie 1",
+      "Latitude": 60.23675895,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24450
+    },
+    "DateCreated": "2014-06-23T10:20:00Z",
+    "UsageTypeID": 1,
+    "UUID": "2098D8C4-5CB1-493B-A3D7-23A9ABADD8C7"
+  },
+  {
+    "OperatorID": 1,
+    "UUID": "257E16BA-952A-4382-9CCF-3554248DB3FE",
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24351,
+    "Connections": [
+      {
+        "StatusTypeID": 50,
+        "CurrentTypeID": 30,
+        "ID": 26515,
+        "LevelID": 3,
+        "ConnectionTypeID": 2
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-08-31T19:27:00Z",
+    "IsRecentlyVerified": false,
+    "DataQualityLevel": 1,
+    "DateCreated": "2014-08-31T19:27:00Z",
+    "UsageTypeID": 1,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 3.9245856655701736,
+      "CountryID": 79,
+      "Title": "ABC Deli Pohjois-Tapiola",
+      "DistanceUnit": 2,
+      "Longitude": 24.807412515344247,
+      "AddressLine2": "Tapiola",
+      "Postcode": "02130",
+      "AddressLine1": "Kalevalantie",
+      "Latitude": 60.185451490935,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24697
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "9EC518CE-1133-41EB-B6B7-7F82A06B1B19",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-09-20T11:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 66651
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88917
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2949",
+    "ID": 53530,
+    "AddressInfo": {
+      "Town": "Etelä-Leppävaara",
+      "Distance": 4.022487617789975,
+      "CountryID": 79,
+      "Title": "Pysäköintihalli P1 3. kerros",
+      "DistanceUnit": 2,
+      "Longitude": 24.819,
+      "AccessComments": "Pysäköintilaitoksen P1, 3 kerros",
+      "Postcode": "02600",
+      "AddressLine1": "Lars Sonckin kaari 3-5",
+      "Latitude": 60.21077,
+      "StateOrProvince": "Uusimaa",
+      "ID": 53876
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 41871,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 50199,
+        "Quantity": 7
+      }
+    ],
+    "NumberOfPoints": 7,
+    "DateLastStatusUpdate": "2015-02-15T17:23:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 4.107135871151968,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kaupinkallion parkkitalo",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.8023268,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Kaupinkalliontie 7",
+      "Latitude": 60.1780018,
+      "StateOrProvince": "Uusimaa",
+      "ID": 42217
+    },
+    "DateCreated": "2015-02-15T13:53:00Z",
+    "UsageTypeID": 5,
+    "UUID": "E5A2D19A-1E4F-478E-A367-A0B82F94EF02"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "2E72E7B7-FD3B-43EF-BAB2-75779F9C03F1",
+    "StatusTypeID": 0,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2012-06-02T11:55:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 8583
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "2",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 86502
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "3",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 86503
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "4",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 86504
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "5",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 86505
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "6",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 86506
+      },
+      {
+        "CurrentTypeID": 10,
+        "Reference": "7",
+        "Comments": "Mode 1",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88891
+      }
+    ],
+    "NumberOfPoints": 7,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1173",
+    "ID": 10584,
+    "AddressInfo": {
+      "Town": "Tapiola",
+      "Distance": 4.117842068758894,
+      "CountryID": 79,
+      "Title": "P-Kaupinkallio / Tapiola",
+      "DistanceUnit": 2,
+      "Longitude": 24.80206,
+      "AccessComments": "",
+      "Postcode": "02100",
+      "AddressLine1": "Kaupinkalliontie 7",
+      "Latitude": 60.17772,
+      "StateOrProvince": "Uusimaa",
+      "ID": 10481
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1062,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24668,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26966,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2014-10-28T17:50:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "helsinki",
+      "Distance": 4.3136693685105225,
+      "CountryID": 79,
+      "Title": "Prisma Viikki",
+      "DistanceUnit": 2,
+      "Longitude": 25.00929,
+      "AddressLine1": "Viikintori 3",
+      "Latitude": 60.2272586,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25014
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "51D3B140-9578-49EF-A8D7-DEAC7343EFE8"
+  },
+  {
+    "GeneralComments": "Parkkihalli F-riviSMS-Aktivointi",
+    "DataQualityLevel": 1,
+    "UsageCost": "",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24354,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26519,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-02-15T17:07:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 4.505808233506147,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kauppakeskus Sello",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.811598774096655,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Sms aktivointi. Latauspaikat löytyvät F riviltä / Sms activation needed.  Charging stations located in row F.",
+      "AddressLine2": "Leppävaara",
+      "Postcode": "02600",
+      "AddressLine1": "Leppävaarankatu",
+      "Latitude": 60.21822589289073,
+      "StateOrProvince": "Helsingin seutukunta",
+      "ID": 24700
+    },
+    "DateCreated": "2014-08-31T19:41:00Z",
+    "UsageTypeID": 1,
+    "UUID": "F3078104-D5A6-418C-AC24-0C0F1771A2AB"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1063,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24669,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26967,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50178,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-27T21:49:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 4.52139629327265,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Siilitien Metroasema",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.044225454330444,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "P-Alue/Parking place",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Siilitie ",
+      "Latitude": 60.20627543623292,
+      "StateOrProvince": "Uusimaa",
+      "ID": 25015
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "D2601965-F8DD-4AD3-A086-178631CC3D48"
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "0,0€",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 68623,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "PowerKW": 22.0,
+        "ID": 96224,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "PowerKW": 50.0,
+        "ID": 96225,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 33,
+        "PowerKW": 22.0,
+        "ID": 96226,
+        "Quantity": 1
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 68623,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM68623/OCM-68623.orig.2016071807581453.jpg",
+        "User": {
+          "Username": "Alex",
+          "ReputationPoints": 6,
+          "ID": 9495,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM68623/OCM-68623.thmb.2016071807581453.jpg",
+        "DateCreated": "2016-07-18T07:58:00Z",
+        "ID": 7767
+      },
+      {
+        "Comment": "",
+        "ChargePointID": 68623,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM68623/OCM-68623.orig.2016071807590372.jpg",
+        "User": {
+          "Username": "Alex",
+          "ReputationPoints": 6,
+          "ID": 9495,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM68623/OCM-68623.thmb.2016071807590372.jpg",
+        "DateCreated": "2016-07-18T07:59:00Z",
+        "ID": 7768
+      }
+    ],
+    "NumberOfPoints": 3,
+    "DateLastStatusUpdate": "2016-07-18T07:59:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 4.648565253849323,
+      "CountryID": 79,
+      "Title": "Hesburger Konala DC Fast",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.8502744,
+      "ContactTelephone1": "+358-800-02200",
+      "AccessComments": "Virta Oy members or one time access. Google Street  View picture is old. There is a Hesburger and Neste now.",
+      "Postcode": "00390",
+      "AddressLine1": "Ristipellontie 11",
+      "Latitude": 60.2398177,
+      "StateOrProvince": "Uusimaa",
+      "ID": 68969
+    },
+    "DateCreated": "2016-06-12T22:57:00Z",
+    "UsageTypeID": 4,
+    "UUID": "BDD9F62E-9C44-4ED3-9088-CBDF8EAF5A11"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1059,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24665,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26963,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50210,
+        "Quantity": 2
+      }
+    ],
+    "UserComments": [
+      {
+        "UserName": "",
+        "Comment": "Latauspaikat usein tukittu väärin pysäköidyilla autoilla. ",
+        "ChargePointID": 24665,
+        "DateCreated": "2015-02-14T12:17:38.14Z",
+        "CommentTypeID": 50,
+        "CheckinStatusTypeID": 110,
+        "ID": 3768
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-27T21:50:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "helsinki",
+      "Distance": 4.908748954809641,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Pukinmäen aseman Liityntäpysäkki",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.994894266128536,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Liityntäparkki/Parking",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Lupiinintie",
+      "Latitude": 60.24357074445509,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25011
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "41A03A80-F717-4A9D-A83D-2E91F1EE72F8"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24177,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 17.0,
+        "ID": 26260,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "Amps": 13,
+        "ID": 26261,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-07-29T09:21:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 4.920661485262475,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Luutnantin aukio",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.86332654953,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Luutnantin aukio 1",
+      "Latitude": 60.2476866109025,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24522
+    },
+    "DateCreated": "2014-07-10T05:08:00Z",
+    "UsageTypeID": 4,
+    "UUID": "40486606-7CC7-454B-BDBB-6FD0AB5134BE"
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1058,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24664,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26962,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-10-28T17:48:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "helsinki",
+      "Distance": 5.688568716090168,
+      "CountryID": 79,
+      "Title": "Prisma Malmi",
+      "DistanceUnit": 2,
+      "Longitude": 25.0103537,
+      "AccessComments": " parking",
+      "AddressLine1": "malmin kauppatie 18",
+      "Latitude": 60.2520968,
+      "ID": 25010
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "BBA760A0-6CB7-4D6A-AEF6-4511953A6562"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "064B5505-3874-4EC5-9CEB-80A9DDC61AF6",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-12-26T11:12:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 4",
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 100,
+        "ID": 73302
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 25.0,
+        "Amps": 63,
+        "ID": 88915
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3177",
+    "ID": 57839,
+    "AddressInfo": {
+      "Town": "Nihtisilta",
+      "Distance": 5.997629355038964,
+      "CountryID": 79,
+      "Title": "ABC Alepa Nihtisilta",
+      "DistanceUnit": 2,
+      "Longitude": 24.75389,
+      "AccessComments": "Huoltoaseman yhteydessä",
+      "Postcode": "02630",
+      "AddressLine1": "Nihtisilta 4",
+      "Latitude": 60.20696,
+      "StateOrProvince": "Uusimaa",
+      "ID": 58185
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free for now",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1046,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24652,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26950,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "ID": 27012,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-02-16T21:45:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 6.0481532725806755,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Energia Areena Parking",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.8385807374431,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "P-Alue/Parking area",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Rajatorpantie 23",
+      "Latitude": 60.2598376,
+      "StateOrProvince": "Uusimaa, Rajatorppa",
+      "ID": 24998
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "9F3AC7EB-4E80-41D6-A0BD-DE3C21C45B58"
+  },
+  {
+    "GeneralComments": "Open when S-Market store is open.",
+    "DataQualityLevel": 1,
+    "UsageCost": "0",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 23192,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 0,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "ID": 24974,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2014-08-31T19:36:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 6.051172415745878,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "S-Market Nihtisilta",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.7535905539673,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "Kilo",
+      "Postcode": "",
+      "AddressLine1": "Kutojantie 1",
+      "Latitude": 60.2091362002382,
+      "StateOrProvince": "",
+      "ID": 23537
+    },
+    "DateCreated": "2014-04-26T10:57:00Z",
+    "UsageTypeID": 1,
+    "UUID": "76AA0168-1EF2-47B4-84A8-C90A9FC848EB"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1065,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24671,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 26969,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 51256,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-03-14T14:22:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 6.106443656273862,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Prisma Itäkeskus",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 25.0880133121173,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "www.itis.fi, www.sahkoinenliikenne.fi",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Vanhanlinnantie 1",
+      "Latitude": 60.21360305,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25017
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "3A1C3937-B1B7-4357-913A-A9662DD5BA41"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 18221,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "CHADEMO",
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "ID": 18442,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-02-15T17:16:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 6.137337594122749,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "ABC Nihtisilta",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://carstations.com/28590",
+      "Longitude": 24.74969744682312,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Nihtisilta 4",
+      "Latitude": 60.20703241990165,
+      "StateOrProvince": "",
+      "ID": 18566
+    },
+    "DateCreated": "2013-07-11T03:52:00Z",
+    "UsageTypeID": 1,
+    "UUID": "10430A06-A5AF-45AB-B81B-322C15B97459"
+  },
+  {
+    "OperatorID": 1,
+    "UUID": "ED471B6A-F092-406E-95AB-73FA977F6C98",
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24349,
+    "Connections": [
+      {
+        "StatusTypeID": 50,
+        "CurrentTypeID": 30,
+        "ID": 26513,
+        "LevelID": 3,
+        "ConnectionTypeID": 2
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-08-31T19:26:00Z",
+    "IsRecentlyVerified": false,
+    "DataQualityLevel": 1,
+    "DateCreated": "2014-08-31T19:26:00Z",
+    "UsageTypeID": 1,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 6.1433548069141475,
+      "CountryID": 79,
+      "Title": "ABC Nihtisilta",
+      "DistanceUnit": 2,
+      "Longitude": 24.749632799999972,
+      "AddressLine2": "Kilo",
+      "Postcode": "02700",
+      "AddressLine1": "Nihtisilta",
+      "Latitude": 60.2072369,
+      "StateOrProvince": "Helsingin seutukunta",
+      "ID": 24695
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30795,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 34024,
+        "Quantity": 4
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 50180,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2015-03-27T21:49:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Puotinharju",
+      "Distance": 6.256542004721698,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Puotilan metroaseman liityntäparkkialue",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.091357231140137,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "00900",
+      "AddressLine1": "Vanhanlinnantie 11",
+      "Latitude": 60.215347428542614,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31141
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "DD65A0F2-71CA-4516-9D82-9ED209B98FC2"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "1F432917-958E-44FD-923F-7A2F271561DF",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-07-14T01:51:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100409
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100410
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100411
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100412
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3454",
+    "ID": 70340,
+    "AddressInfo": {
+      "Town": "Kirkonkylä-Veromäki",
+      "Distance": 6.434950214398892,
+      "CountryID": 79,
+      "Title": "K-citymarket Tammisto",
+      "DistanceUnit": 2,
+      "Longitude": 24.97008,
+      "AccessComments": "Seinässä, lähellä lastauslaitureita",
+      "Postcode": "01510",
+      "AddressLine1": "Valimotie 9",
+      "Latitude": 60.27255,
+      "StateOrProvince": "Uusimaa",
+      "ID": 70686
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1288,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 31282,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 34632
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 34633
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-12-26T17:08:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Espoo",
+      "Distance": 6.479914977953297,
+      "CountryID": 79,
+      "Title": "Iso Omena",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.isoomena.fi",
+      "Longitude": 24.7375304,
+      "AccessComments": "In the south end of underground garage",
+      "Postcode": "02230",
+      "AddressLine1": "Piispansilta 11",
+      "Latitude": 60.1620733,
+      "ID": 31628
+    },
+    "DateCreated": "2014-12-15T04:21:00Z",
+    "UsageTypeID": 1,
+    "UUID": "DC11DBDA-936B-4F0E-8D07-1356CE9BEB18"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30783,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 34012,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 17.0,
+        "Amps": 32,
+        "ID": 50197,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-02-15T17:14:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Olari-Kuitinmäki",
+      "Distance": 6.49654348655717,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Prisma Olari",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.73504,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "02210",
+      "AddressLine1": "Komeetankatu 2",
+      "Latitude": 60.16712,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31129
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "D278AAD8-F239-4362-993A-7471CAB406FA"
+  },
+  {
+    "GeneralComments": "www.virta.fi",
+    "DataQualityLevel": 1,
+    "UsageCost": "",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1057,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24663,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26961,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 45433,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-07-29T09:16:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 6.714670984506688,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Tapanilan asema,  itäinen P-Alue",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.030712485313416,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "East side parking",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Jäkälätie 10",
+      "Latitude": 60.263232250805586,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25009
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "EE266DF6-5441-4AF1-BCE1-D7DED6B4E6D2"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "289A2474-D53A-4198-917A-F674C6CB7A6C",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 52329
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88876
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2610",
+    "ID": 43161,
+    "AddressInfo": {
+      "Town": "Friisilä",
+      "Distance": 6.844248720772183,
+      "CountryID": 79,
+      "Title": "Volkswagen Center Espoo",
+      "DistanceUnit": 2,
+      "Longitude": 24.72591,
+      "AccessComments": "Yrityksen parkkipaikalla",
+      "Postcode": "02240",
+      "AddressLine1": "Piispantilantie 2",
+      "Latitude": 60.16396,
+      "StateOrProvince": "Uusimaa",
+      "ID": 43507
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1272,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 29482,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "ID": 32465,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 33,
+        "ID": 32466,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 44.0,
+        "Amps": 63,
+        "ID": 32467,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-11-28T13:46:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 6.994419538453254,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Martinlaakson ostoskeskus",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.8539452,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Ylä P-Alue",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "kivivuoren tie 4, vantaa",
+      "Latitude": 60.2781065,
+      "StateOrProvince": "Uusimaa",
+      "ID": 29828
+    },
+    "DateCreated": "2014-11-27T11:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "04BAC2B9-5CF4-4BCF-B2A2-CE2C3A088569"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "",
+    "OperatorID": 136,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1055,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24661,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26959,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 45158,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-07-29T09:15:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 7.4448409290075555,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Puistolan juna-asema, Itäpuolen P-alue",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.036527514457703,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Train station parking. East side.",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Raidepolku",
+      "Latitude": 60.273958987700944,
+      "StateOrProvince": "Uusimaa",
+      "ID": 25007
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 4,
+    "UUID": "6ECC4D21-7C59-450A-9CE6-58E9594EC6F0"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "E9AC2F31-6CE4-4329-A888-1B2D75FE3E57",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-07-14T01:51:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100405
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100406
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100407
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100408
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3453",
+    "ID": 70339,
+    "AddressInfo": {
+      "Town": "Suomenoja",
+      "Distance": 7.452004493641664,
+      "CountryID": 79,
+      "Title": "K-rauta Merituuli Suomenoja",
+      "DistanceUnit": 2,
+      "Longitude": 24.70813,
+      "AccessComments": "Parkkipaikalla lähellä sisäänkäyntiä",
+      "Postcode": "02270",
+      "AddressLine1": "Isonniitynkuja 2",
+      "Latitude": 60.16341,
+      "StateOrProvince": "Uusimaa",
+      "ID": 70685
+    }
+  },
+  {
+    "GeneralComments": "Liityntä pysäköinti. ",
+    "DataQualityLevel": 1,
+    "UsageCost": "0,0",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 68624,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 96229,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "PowerKW": 22.0,
+        "ID": 96230,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-06-13T19:35:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 7.5319472681935355,
+      "CountryID": 79,
+      "Title": "Vantaankosken Asema",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 24.8469109,
+      "ContactTelephone1": "0800-02200",
+      "Postcode": "01620",
+      "AddressLine1": "Ratastie 1",
+      "Latitude": 60.2851218,
+      "StateOrProvince": "Uusimaa",
+      "ID": 68970
+    },
+    "DateCreated": "2016-06-12T23:19:00Z",
+    "UsageTypeID": 4,
+    "UUID": "95DD506F-80DC-4673-9831-1B45A8D22321"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 45,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24192,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "Amps": 13,
+        "ID": 26258,
+        "Quantity": 5
+      }
+    ],
+    "NumberOfPoints": 5,
+    "DateLastStatusUpdate": "2014-07-28T10:19:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 7.620720387847764,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kauppakeskus Jumbo",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.9634531052795,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "Vantaanportti",
+      "Postcode": "01510",
+      "AddressLine1": "Tasetie",
+      "Latitude": 60.2909050604274,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24537
+    },
+    "DateCreated": "2014-07-12T18:04:00Z",
+    "UsageTypeID": 1,
+    "UUID": "9338E7D3-3D94-4F41-8858-F7BB50C46994"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "699246B8-151A-444C-829C-D66C6D9E603D",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 52328
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2611",
+    "ID": 43160,
+    "AddressInfo": {
+      "Town": "Suomenoja",
+      "Distance": 7.792250101246862,
+      "CountryID": 79,
+      "Title": "Audi Center Espoo",
+      "DistanceUnit": 2,
+      "Longitude": 24.69918,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa",
+      "Postcode": "02270",
+      "AddressLine1": "Martinkuja 6",
+      "Latitude": 60.16049,
+      "StateOrProvince": "Uusimaa",
+      "ID": 43506
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1054,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24660,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26958,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 26981,
+        "Quantity": 1
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 24660,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24660/OCM-24660.orig.2015110418363062.jpeg",
+        "User": {
+          "Username": "Tomasz Bilinski",
+          "ReputationPoints": 1,
+          "ID": 6565
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24660/OCM-24660.thmb.2015110418363062.jpeg",
+        "DateCreated": "2015-11-04T18:37:00Z",
+        "ID": 3480
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-11-04T18:37:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Helsinki",
+      "Distance": 7.917720497923161,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "McDonalds Tikkurila",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 25.0292353,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "McDonalds parking",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Aamuruskontie 2",
+      "Latitude": 60.2839381,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25006
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "6B4E9ACB-6F92-4011-B256-13A8468A3A5A"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30819,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 2",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 34048
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-02-15T16:21:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 8.096280289416569,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "ALD Automotive Koivuhaka",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.988499879837036,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "01510",
+      "AddressLine1": "Ohtolankatu 4",
+      "Latitude": 60.294952671990856,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31165
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 6,
+    "UUID": "1CCA3CA3-F21C-42F7-BA8E-CC8D1BA9C014"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "3ECACFCC-76B4-42FD-937A-F70B77CC4978",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 52330
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88952
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2609",
+    "ID": 43162,
+    "AddressInfo": {
+      "Town": "Veromiehenkylä",
+      "Distance": 8.096759398328844,
+      "CountryID": 79,
+      "Title": "Audi Center Airport",
+      "DistanceUnit": 2,
+      "Longitude": 24.97995,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa",
+      "Postcode": "01530",
+      "AddressLine1": "Tikkurilantie 123",
+      "Latitude": 60.29613,
+      "StateOrProvince": "Uusimaa",
+      "ID": 43508
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "D54F4CAF-3986-4E6C-B53D-99E4ECDC7E1B",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 52331
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 88953
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2666",
+    "ID": 43163,
+    "AddressInfo": {
+      "Town": "Veromiehenkylä",
+      "Distance": 8.143161518834887,
+      "CountryID": 79,
+      "Title": "Volkswagen Center Airport",
+      "DistanceUnit": 2,
+      "Longitude": 24.98432,
+      "AccessComments": "Yrityksen tai yhteisön omalla parkkialueella tai -hallissa",
+      "Postcode": "01530",
+      "AddressLine1": "Kiitoradantie 2",
+      "Latitude": 60.29625,
+      "StateOrProvince": "Uusimaa",
+      "ID": 43509
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1047,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24653,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 400,
+        "ID": 26951,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-10-27T20:30:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 8.160443405550446,
+      "CountryID": 79,
+      "Title": "Europacar Aviapolis",
+      "DistanceUnit": 2,
+      "Longitude": 24.9683619,
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "AddressLine1": "Perintötie 8",
+      "Latitude": 60.298387,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24999
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "BBEEDF94-8A92-49A2-AD41-187C821F9E6F"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1053,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24659,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26957,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 26980
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-10-31T13:38:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 8.561730291202126,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Prisma",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "Longitude": 25.0341458475799,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "parking",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Unikkotie 13",
+      "Latitude": 60.29317305,
+      "StateOrProvince": "Uusimaa",
+      "ID": 25005
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "F4BC39EA-009E-4D04-8F4D-C95E839EAA09"
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1052,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24658,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26956,
+        "Quantity": 10
+      }
+    ],
+    "NumberOfPoints": 10,
+    "DateLastStatusUpdate": "2014-10-27T20:33:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 8.723771986446934,
+      "CountryID": 79,
+      "Title": "Tikkuparkki",
+      "DistanceUnit": 2,
+      "Longitude": 25.0391566,
+      "AccessComments": "Parking",
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "AddressLine1": "Lummekuja 5",
+      "Latitude": 60.2945323,
+      "ID": 25004
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "F55930F4-7464-49F6-893F-9B6B09F9621E"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1051,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24657,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 400,
+        "ID": 26955,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 33,
+        "ID": 32468,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-11-28T13:49:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 8.862970132016073,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Tikkurilan Urheilupuisto",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "Longitude": 25.030382,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "P-Alue/Parking place",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Läntinen Valkoisenlähteentie 50",
+      "Latitude": 60.2989261,
+      "StateOrProvince": " Uusimaa",
+      "ID": 25003
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "4BA0A6E5-4899-42F7-BD1F-99FACFA10BCE"
+  },
+  {
+    "DateLastVerified": "2016-12-03T02:36:00Z",
+    "DataQualityLevel": 2,
+    "UUID": "DDD4E6D6-FBE1-4CDD-84B6-5A349D12B4A4",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-12-03T02:36:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107629
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107630
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107631
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107632
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "5",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107633
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "6",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107634
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "7",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107635
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "8",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107636
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "9",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107637
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "10",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107638
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "11",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107639
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "12",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107640
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "13",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107641
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "14",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107642
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "15",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107643
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "16",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107644
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "17",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107645
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "18",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107646
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "19",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107647
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "20",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107648
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "21",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107649
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "22",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107650
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "23",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107651
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "24",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107652
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "25",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107653
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "26",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107654
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "27",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107655
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "28",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107656
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "29",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107657
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "30",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107658
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "31",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107659
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "32",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107660
+      }
+    ],
+    "NumberOfPoints": 32,
+    "DateLastStatusUpdate": "2016-12-03T02:36:00Z",
+    "IsRecentlyVerified": true,
+    "DataProvidersReference": "3571",
+    "ID": 74737,
+    "AddressInfo": {
+      "Town": "Veromiehenkylä",
+      "Distance": 9.16814111093435,
+      "CountryID": 79,
+      "Title": "Helsinki-Vantaan lentoasema Pysäköintitalo P5",
+      "DistanceUnit": 2,
+      "Longitude": 24.96544,
+      "AccessComments": "Heti P5 sisäänajon jälkeen vasemmalla",
+      "Postcode": "01530",
+      "AddressLine1": "Tutkatie 4",
+      "Latitude": 60.31348,
+      "StateOrProvince": "Uusimaa",
+      "ID": 75083
+    }
+  },
+  {
+    "GeneralComments": "Parking fee must be paid.",
+    "DataQualityLevel": 1,
+    "UsageCost": "Parking fee",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1049,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24655,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26953,
+        "Quantity": 4
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2015-02-15T16:43:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 9.429214005117789,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Helsinki - Vantaa Parking area 1",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.sahkoinenliikenne.fi",
+      "Longitude": 24.968104362487793,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Parkkitalo P1/Parking zone P1",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Parkkitie 4",
+      "Latitude": 60.31708846117852,
+      "StateOrProvince": "Uusimaa",
+      "ID": 25001
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 5,
+    "UUID": "0B0EE690-ABC1-422B-A435-7CCF7C3AD815"
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free for now",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 51630,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 64032,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 64033,
+        "Quantity": 2
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 51630,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM51630/OCM-51630.orig.2015080710485645.jpg",
+        "User": {
+          "Username": "Ryp",
+          "ReputationPoints": 126,
+          "ID": 2045,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/065efe2b7693a19bbdd956759eb86725?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM51630/OCM-51630.thmb.2015080710485645.jpg",
+        "DateCreated": "2015-08-07T10:49:00Z",
+        "ID": 2976
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2015-08-07T10:49:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Vantaa",
+      "Distance": 9.62533078495071,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Hakunilan Urheilupuisto",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.12375295162201,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "01200",
+      "AddressLine1": "Luotikuja 2",
+      "Latitude": 60.27914284869886,
+      "StateOrProvince": "",
+      "ID": 51976
+    },
+    "DateCreated": "2015-08-07T04:01:00Z",
+    "UsageTypeID": 4,
+    "UUID": "9736B149-423B-46E8-887F-15F2249DCA95"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "8B086FB7-F820-4FC9-A74C-335C11CAC11C",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-11-06T03:39:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 71503
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3091",
+    "ID": 56704,
+    "AddressInfo": {
+      "Town": "Masala",
+      "Distance": 13.409196656877985,
+      "CountryID": 79,
+      "Title": "Electric Arena, Kirkkonummi (1092)",
+      "DistanceUnit": 2,
+      "Longitude": 24.536096,
+      "AccessComments": "Electric Arenan yhteydessä",
+      "Postcode": "02430",
+      "AddressLine1": "Eteläinen Salmitie 1",
+      "Latitude": 60.152573,
+      "StateOrProvince": "Uusimaa",
+      "ID": 57050
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1066,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24672,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26970,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-10-28T17:53:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "kerava",
+      "Distance": 16.441225710653036,
+      "CountryID": 79,
+      "Title": "Prisma Kerava",
+      "DistanceUnit": 2,
+      "Longitude": 25.102247,
+      "AccessComments": "parking place",
+      "AddressLine1": "kauppakaari 1",
+      "Latitude": 60.403039,
+      "ID": 25018
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "6FDE28A8-DCC0-4801-9EE8-EFAC01BE62F1"
+  },
+  {
+    "DateLastVerified": "2016-12-03T02:36:00Z",
+    "DataQualityLevel": 2,
+    "UUID": "F0928BB2-5387-4B6E-8A3C-3A2438045933",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-12-03T02:36:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 107661
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 107662
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:36:00Z",
+    "IsRecentlyVerified": true,
+    "DataProvidersReference": "3568",
+    "ID": 74738,
+    "AddressInfo": {
+      "Town": "Kerava Keskus",
+      "Distance": 16.561155899667565,
+      "CountryID": 79,
+      "Title": "Pohjanheimon talo",
+      "DistanceUnit": 2,
+      "Longitude": 25.10543,
+      "AccessComments": "Keltaisen talon takana rautatieasemalta katsottuna",
+      "Postcode": "04200",
+      "AddressLine1": "Asemanaukio 1",
+      "Latitude": 60.40427,
+      "StateOrProvince": "Uusimaa",
+      "ID": 75084
+    }
+  },
+  {
+    "DateLastVerified": "2016-12-03T02:36:00Z",
+    "DataQualityLevel": 2,
+    "UUID": "12485364-F4E5-4908-A5B8-78D5FB9B5CF7",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-12-03T02:36:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107663
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 107664
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:36:00Z",
+    "IsRecentlyVerified": true,
+    "DataProvidersReference": "3569",
+    "ID": 74739,
+    "AddressInfo": {
+      "Town": "Kerava Keskus",
+      "Distance": 16.651103728219766,
+      "CountryID": 79,
+      "Title": "Urheilupuisto",
+      "DistanceUnit": 2,
+      "Longitude": 25.09034,
+      "AccessComments": "Keravan urheilupuiston pysäköintipaikka",
+      "Postcode": "04200",
+      "AddressLine1": "Kisapolku 1",
+      "Latitude": 60.40859,
+      "StateOrProvince": "Uusimaa",
+      "ID": 75085
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1067,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24673,
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 1,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "Amps": 16,
+        "ID": 26971,
+        "Quantity": 2
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-10-28T17:52:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Järvenpää",
+      "Distance": 20.626546002732805,
+      "CountryID": 79,
+      "Title": "Prisma Järvenpää",
+      "DistanceUnit": 2,
+      "Longitude": 25.0856595,
+      "AccessComments": "parking garage",
+      "AddressLine1": " rantakatu 5",
+      "Latitude": 60.469838,
+      "ID": 25019
+    },
+    "DateCreated": "2014-10-26T02:00:00Z",
+    "UsageTypeID": 1,
+    "UUID": "2B29F976-E87D-4CA1-BAB4-06C4ED6A837F"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "C546759A-8BF6-4AD0-9D81-225275FA7F94",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-05-03T00:54:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 57128
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 86770
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 88973
+      }
+    ],
+    "NumberOfPoints": 3,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1168",
+    "ID": 46465,
+    "AddressInfo": {
+      "Town": "Kulloonkylä",
+      "Distance": 20.760889484641154,
+      "CountryID": 79,
+      "Title": "Premier Park, Porvoo",
+      "DistanceUnit": 2,
+      "Longitude": 25.42743,
+      "AccessComments": "Driving school.",
+      "Postcode": "06830",
+      "AddressLine1": "Öljytie 1007",
+      "Latitude": 60.34785,
+      "StateOrProvince": "Uusimaa",
+      "ID": 46811
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "83DBE7F3-9681-4E63-8C3C-B02E0A71E71F",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-09-02T11:12:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 4",
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 100,
+        "ID": 102564
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 4",
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 100,
+        "ID": 102565
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3510",
+    "ID": 71651,
+    "AddressInfo": {
+      "Town": "Siuntio Asemanseutu",
+      "Distance": 22.340157669589853,
+      "CountryID": 79,
+      "Title": "ABC Pickala F63",
+      "DistanceUnit": 2,
+      "Longitude": 24.29431,
+      "AccessComments": "Huoltoaseman yhteydessä",
+      "Postcode": "02580",
+      "AddressLine1": "Rannikkotie 31",
+      "Latitude": 60.09878,
+      "StateOrProvince": "Uusimaa",
+      "ID": 71997
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "64AF63EA-A9F3-4213-8519-179C430ECBF0",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 78200
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3257",
+    "ID": 61404,
+    "AddressInfo": {
+      "Town": "Gammelbacka",
+      "Distance": 26.807353958882196,
+      "CountryID": 79,
+      "Title": "Haikon Kartanon Kylpylähotellin etupiha",
+      "DistanceUnit": 2,
+      "Longitude": 25.62504,
+      "AccessComments": "Haikon Kartanon Kylpylähotellin etupihalla.",
+      "Postcode": "06400",
+      "AddressLine1": "Haikkoontie 114",
+      "Latitude": 60.35222,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61750
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "075AFA03-BCE2-42DB-9177-98233FAEFA9D",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2014-12-09T09:01:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 34073
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1862",
+    "ID": 30844,
+    "AddressInfo": {
+      "Town": "Porvoo Keskus",
+      "Distance": 28.53341033914253,
+      "CountryID": 79,
+      "Title": "Bussipysäkin parkkipaikka",
+      "DistanceUnit": 2,
+      "Longitude": 25.63992,
+      "AccessComments": "Bussipysäkin parkkipaikka",
+      "Postcode": "06100",
+      "AddressLine1": "Vanha Helsingintie 1",
+      "Latitude": 60.39171,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31190
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "EE1C85E6-8E7E-45EF-BD21-4B2B3550A53D",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 52334
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1859",
+    "ID": 43166,
+    "AddressInfo": {
+      "Town": "Porvoo Keskus",
+      "Distance": 29.211142134358838,
+      "CountryID": 79,
+      "Title": "Rihkamatorin parkkipaikka",
+      "DistanceUnit": 2,
+      "Longitude": 25.65967,
+      "AccessComments": "Porvoon Rihkamatorin laidalla sijaitseva parkkipaikka",
+      "Postcode": "06100",
+      "AddressLine1": "Rihkamakatu 5",
+      "Latitude": 60.39442,
+      "StateOrProvince": "Uusimaa",
+      "ID": 43512
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "MetadataValues": [
+      {
+        "MetadataFieldID": 4,
+        "ID": 1273,
+        "ItemValue": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright"
+      }
+    ],
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 29483,
+    "Connections": [],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-11-28T14:05:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Porvoo",
+      "Distance": 29.268666863916955,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Rauhankatu 27",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 25.6604862,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "",
+      "Latitude": 60.3953913,
+      "StateOrProvince": "",
+      "ID": 29829
+    },
+    "DateCreated": "2014-11-27T11:00:00Z",
+    "UsageTypeID": 0,
+    "UUID": "9AB500B1-CDFB-4681-8BAA-526BD9CEAF22"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "472A0A14-BEFA-4D0E-81CD-3492B20E0BBE",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2014-12-09T09:01:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 34076
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1858",
+    "ID": 30847,
+    "AddressInfo": {
+      "Town": "Porvoo Keskus",
+      "Distance": 29.35638865654373,
+      "CountryID": 79,
+      "Title": "Torin parkkipaikka",
+      "DistanceUnit": 2,
+      "Longitude": 25.66643,
+      "AccessComments": "Porvoon torin laidalla sijaitseva parkkipaikka",
+      "Postcode": "06100",
+      "AddressLine1": "Rauhankatu 27",
+      "Latitude": 60.39279,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31193
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 2,
+    "UsageCost": "0.2 €/min",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 1,
+    "ID": 30799,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "Comments": "Mode 4",
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 110,
+        "ID": 34028,
+        "Quantity": 1
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 30799,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM30799/OCM-30799.orig.2015031811315918.jpg",
+        "User": {
+          "Username": "Ryp",
+          "ReputationPoints": 126,
+          "ID": 2045,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/065efe2b7693a19bbdd956759eb86725?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM30799/OCM-30799.thmb.2015031811315918.jpg",
+        "DateCreated": "2015-03-18T11:32:00Z",
+        "ID": 1116
+      },
+      {
+        "Comment": "",
+        "ChargePointID": 30799,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM30799/OCM-30799.orig.2015032111462158.jpg",
+        "User": {
+          "Username": "Ryp",
+          "ReputationPoints": 126,
+          "ID": 2045,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/065efe2b7693a19bbdd956759eb86725?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM30799/OCM-30799.thmb.2015032111462158.jpg",
+        "DateCreated": "2015-03-21T11:46:00Z",
+        "ID": 1124
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-03-21T11:46:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Lohja Keskus",
+      "Distance": 29.891314043500728,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "ABC GrilliMarket Tytyri",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.06418,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "08100",
+      "AddressLine1": "Tytyrinkatu 4",
+      "Latitude": 60.25902,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31145
+    },
+    "DateCreated": "2014-12-09T09:00:00Z",
+    "UsageTypeID": 5,
+    "UUID": "8D6B200D-EFF7-4290-AC6B-1005A51E18D9"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "36180653-52C3-433E-8BD3-5FEB425A342F",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2014-12-09T09:01:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 28,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 34078
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "1549",
+    "ID": 30849,
+    "AddressInfo": {
+      "Town": "Porvoo Keskus",
+      "Distance": 30.246920943346062,
+      "CountryID": 79,
+      "Title": "Aurinkokatos",
+      "DistanceUnit": 2,
+      "Longitude": 25.6911,
+      "AccessComments": "",
+      "Postcode": "06100",
+      "AddressLine1": "Ensio Miettisen katu 2",
+      "Latitude": 60.3974,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31195
+    }
+  },
+  {
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 45,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24196,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "ID": 26262,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-07-13T18:10:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Hyvinkää",
+      "Distance": 30.389086705634128,
+      "CountryID": 79,
+      "Title": "ABC - Hyvinkää",
+      "DistanceUnit": 2,
+      "Longitude": 24.8066139221191,
+      "AddressLine1": "Kuokkamaantie",
+      "Latitude": 60.6187235002889,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24541
+    },
+    "DateCreated": "2014-07-13T12:56:00Z",
+    "UsageTypeID": 1,
+    "UUID": "28E58E92-5278-4313-B638-58B7783BE149"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "1109F3C4-DEF9-4347-AE11-17ABBB625BE6",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-09-02T11:12:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 102571
+      },
+      {
+        "CurrentTypeID": 30,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 12.0,
+        "Amps": 32,
+        "ID": 102572
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3512",
+    "ID": 71653,
+    "AddressInfo": {
+      "Town": "Routio",
+      "Distance": 30.447542203621488,
+      "CountryID": 79,
+      "Title": "ABC Lohja F113",
+      "DistanceUnit": 2,
+      "Longitude": 24.06178,
+      "AccessComments": "Huoltoaseman yhteydessä",
+      "Postcode": "08350",
+      "AddressLine1": "Hossamäentie 1",
+      "Latitude": 60.29232,
+      "StateOrProvince": "Uusimaa",
+      "ID": 71999
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "F73D444B-44F4-4890-A247-92876F628592",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-02-27T02:32:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 78201
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 86915
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 89030
+      }
+    ],
+    "NumberOfPoints": 3,
+    "DateLastStatusUpdate": "2016-12-03T02:41:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3255",
+    "ID": 61405,
+    "AddressInfo": {
+      "Town": "Kevätkumpu",
+      "Distance": 30.472541599169876,
+      "CountryID": 79,
+      "Title": "Ensto Chagon parkkipaikka",
+      "DistanceUnit": 2,
+      "Longitude": 25.70037,
+      "AccessComments": "Parkkipaikka",
+      "Postcode": "06150",
+      "AddressLine1": "Kipinätie 1",
+      "Latitude": 60.39585,
+      "StateOrProvince": "Uusimaa",
+      "ID": 61751
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "Free",
+    "OperatorID": 1,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24190,
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "ID": 26255,
+        "Quantity": 2
+      },
+      {
+        "CurrentTypeID": 10,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "Amps": 13,
+        "ID": 26256,
+        "Quantity": 2
+      }
+    ],
+    "MediaItems": [
+      {
+        "Comment": "",
+        "ChargePointID": 24190,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.orig.2014071217351390.jpeg",
+        "User": {
+          "Username": "Ryp",
+          "ReputationPoints": 126,
+          "ID": 2045,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/065efe2b7693a19bbdd956759eb86725?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.thmb.2014071217351390.jpeg",
+        "DateCreated": "2014-07-12T17:35:00Z",
+        "ID": 514
+      },
+      {
+        "Comment": "",
+        "ChargePointID": 24190,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.orig.2014120909323166.jpg",
+        "User": {
+          "Username": "Max Angelma",
+          "ReputationPoints": 3,
+          "ID": 4432,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/e065a957f713f5b9d4f45cb1e060583b?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.thmb.2014120909323166.jpg",
+        "DateCreated": "2014-12-09T09:33:00Z",
+        "ID": 746
+      },
+      {
+        "Comment": "",
+        "ChargePointID": 24190,
+        "IsFeaturedItem": false,
+        "IsEnabled": true,
+        "IsExternalResource": false,
+        "IsVideo": false,
+        "ItemURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.orig.2014120909330682.jpg",
+        "User": {
+          "Username": "Max Angelma",
+          "ReputationPoints": 3,
+          "ID": 4432,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/e065a957f713f5b9d4f45cb1e060583b?s=80&d=mm"
+        },
+        "ItemThumbnailURL": "https://ocm.blob.core.windows.net/images/FI/OCM24190/OCM-24190.thmb.2014120909330682.jpg",
+        "DateCreated": "2014-12-09T09:33:00Z",
+        "ID": 747
+      }
+    ],
+    "NumberOfPoints": 2,
+    "DateLastStatusUpdate": "2014-12-09T09:33:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Hyvinkää",
+      "Distance": 30.974471314354812,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Kauppakeskus Willa - Prisma",
+      "DistanceUnit": 2,
+      "RelatedURL": "",
+      "Longitude": 24.8658531,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "Latauspiste Prisman puoleisessa parkkihallissa. Auki Prisman aukioloaikoina.",
+      "AddressLine2": "",
+      "Postcode": "05800",
+      "AddressLine1": "Torikatu 9",
+      "Latitude": 60.6300283,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24535
+    },
+    "DateCreated": "2014-07-12T17:32:00Z",
+    "UsageTypeID": 1,
+    "UUID": "60F959F0-EE1C-4696-B386-E25216E48BA5"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "C1B64B65-5430-4CE8-A451-BFEE81104948",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2014-12-09T09:01:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "Reference": "1",
+        "Comments": "Mode 4",
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 100,
+        "ID": 34092
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:42:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2325",
+    "ID": 30863,
+    "AddressInfo": {
+      "Town": "Polari",
+      "Distance": 33.513837472556624,
+      "CountryID": 79,
+      "Title": "Auto-Kehä Karkkila",
+      "DistanceUnit": 2,
+      "Longitude": 24.242810648163,
+      "AccessComments": "",
+      "Postcode": "03620",
+      "AddressLine1": "Helsingintie 7-9",
+      "Latitude": 60.5327099997646,
+      "StateOrProvince": "Uusimaa",
+      "ID": 31209
+    }
+  },
+  {
+    "GeneralComments": "",
+    "DataQualityLevel": 1,
+    "UsageCost": "AC: free for now, DC free for now",
+    "OperatorID": 136,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 26055,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "Amps": 125,
+        "ID": 28419,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 33,
+        "Voltage": 500,
+        "Amps": 125,
+        "ID": 28420,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 44.0,
+        "Amps": 63,
+        "ID": 28421,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2015-03-27T21:48:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Mäntsälä",
+      "Distance": 34.006907080527924,
+      "ContactTelephone2": "",
+      "CountryID": 79,
+      "Title": "Seurantalon parkkipaikka",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.virta.fi",
+      "Longitude": 25.3175057518372,
+      "ContactEmail": "",
+      "ContactTelephone1": "",
+      "AccessComments": "",
+      "AddressLine2": "",
+      "Postcode": "",
+      "AddressLine1": "Huvitie 1",
+      "Latitude": 60.63424175752265,
+      "StateOrProvince": "Uusimaa",
+      "ID": 26401
+    },
+    "DateCreated": "2014-11-27T17:49:00Z",
+    "UsageTypeID": 4,
+    "UUID": "01438068-4C53-406B-97A7-D00795C2652E"
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "C234324F-4E7D-4EDB-BE07-0AEEFA25639C",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-07-14T01:51:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100430
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100431
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100432
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100433
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2016-12-03T02:42:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3458",
+    "ID": 70344,
+    "AddressInfo": {
+      "Town": "Mäntsälä Keskus",
+      "Distance": 34.22124767284152,
+      "CountryID": 79,
+      "Title": "K-citymarket Mäntsälä",
+      "DistanceUnit": 2,
+      "Longitude": 25.31795,
+      "AccessComments": "Parkkihallissa, sisäänajoväylän vieressä",
+      "Postcode": "04600",
+      "AddressLine1": "Sälinkääntie 2",
+      "Latitude": 60.63753,
+      "StateOrProvince": "Uusimaa",
+      "ID": 70690
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "9CAF2E35-272F-4B95-B5E9-9CCDACF8905C",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2016-07-14T01:51:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 20,
+        "Reference": "1",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100434
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "2",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100435
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "3",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100436
+      },
+      {
+        "CurrentTypeID": 20,
+        "Reference": "4",
+        "Comments": "Mode 3",
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 230,
+        "Amps": 32,
+        "ID": 100437
+      }
+    ],
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2016-12-03T02:42:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "3452",
+    "ID": 70345,
+    "AddressInfo": {
+      "Town": "Herajoki",
+      "Distance": 37.808089408676665,
+      "CountryID": 79,
+      "Title": "K-Citymarket Riihimäki",
+      "DistanceUnit": 2,
+      "Longitude": 24.73411,
+      "AccessComments": "Parkkipaikalla, lähellä sisäänkäyntiä ja Hesburgerin Drive-in -kaistaa",
+      "Postcode": "11710",
+      "AddressLine1": "Merkoksenkatu 5",
+      "Latitude": 60.72191,
+      "StateOrProvince": "Kanta-Häme",
+      "ID": 70691
+    }
+  },
+  {
+    "OperatorID": 1,
+    "UUID": "242802DB-8953-436D-ABB1-AB4FB2DC33A9",
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 24345,
+    "Connections": [
+      {
+        "StatusTypeID": 50,
+        "CurrentTypeID": 30,
+        "ID": 26506,
+        "LevelID": 3,
+        "ConnectionTypeID": 2
+      },
+      {
+        "StatusTypeID": 50,
+        "CurrentTypeID": 30,
+        "ID": 26507,
+        "LevelID": 3,
+        "ConnectionTypeID": 33
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-08-31T19:14:00Z",
+    "IsRecentlyVerified": false,
+    "DataQualityLevel": 1,
+    "DateCreated": "2014-08-31T19:14:00Z",
+    "UsageTypeID": 1,
+    "AddressInfo": {
+      "Town": "Loviisa",
+      "Distance": 39.234698070224155,
+      "CountryID": 79,
+      "Title": "ABC Kuninkaantie",
+      "DistanceUnit": 2,
+      "Longitude": 25.89251261071955,
+      "Postcode": "07740",
+      "AddressLine1": "Vanhankyläntie 77",
+      "Latitude": 60.485005501547235,
+      "StateOrProvince": "Uusimaa",
+      "ID": 24691
+    }
+  },
+  {
+    "DataQualityLevel": 2,
+    "UUID": "4BA43656-4A3B-4457-84AC-B591A2FF4E00",
+    "SubmissionStatusTypeID": 100,
+    "DataProviderID": 19,
+    "DateCreated": "2015-03-25T04:33:00Z",
+    "Connections": [
+      {
+        "CurrentTypeID": 10,
+        "Reference": "1",
+        "Comments": "Mode 2",
+        "LevelID": 2,
+        "ConnectionTypeID": 28,
+        "Voltage": 230,
+        "Amps": 16,
+        "ID": 52350
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2016-12-03T02:42:00Z",
+    "IsRecentlyVerified": false,
+    "DataProvidersReference": "2608",
+    "ID": 43182,
+    "AddressInfo": {
+      "Town": "Pohjois-Riihimäki",
+      "Distance": 40.86783569760292,
+      "CountryID": 79,
+      "Title": "Ekokem Pääkonttorin paikoitusalue, lohko 1",
+      "DistanceUnit": 2,
+      "Longitude": 24.83519,
+      "AccessComments": "Pääkonttorin paikoitusalue, lohko 1",
+      "Postcode": "11120",
+      "AddressLine1": "Kuulojankatu 1",
+      "Latitude": 60.77252,
+      "StateOrProvince": "Kanta-Häme",
+      "ID": 43528
+    }
+  },
+  {
+    "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 37007",
+    "DataQualityLevel": 1,
+    "UsageCost": "5€/up to 60min",
+    "OperatorID": 76,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 23761,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 120,
+        "ID": 25764,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 25765,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-05-29T06:47:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Viimsi",
+      "Distance": 46.87022159193627,
+      "CountryID": 74,
+      "Title": "Viimsi",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.elmo.ee",
+      "Longitude": 24.8298154687068,
+      "ContactEmail": "tugi@elmo.ee",
+      "ContactTelephone1": "+372 6511911",
+      "Postcode": "74001",
+      "AddressLine1": "Pargi tee",
+      "Latitude": 59.5058460547743,
+      "StateOrProvince": "Harju maakond",
+      "ID": 24106
+    },
+    "DateCreated": "2014-05-28T20:18:00Z",
+    "UsageTypeID": 1,
+    "UUID": "650ACBF9-1789-4BF2-9CC0-FC5803DD154F"
+  },
+  {
+    "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 37011",
+    "DataQualityLevel": 1,
+    "UsageCost": "5€/up to 60min",
+    "OperatorID": 76,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 23748,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 120,
+        "ID": 25738,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 25739,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-05-28T19:32:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Maardu",
+      "Distance": 49.33195187681173,
+      "CountryID": 74,
+      "Title": "Maardu",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.elmo.ee",
+      "Longitude": 25.015982232012455,
+      "ContactEmail": "tugi@elmo.ee",
+      "ContactTelephone1": "+372 6511911",
+      "Postcode": "74111",
+      "AddressLine1": "Keemikute",
+      "Latitude": 59.470234822831074,
+      "StateOrProvince": "Harju maakond",
+      "ID": 24093
+    },
+    "DateCreated": "2014-05-28T19:32:00Z",
+    "UsageTypeID": 1,
+    "UUID": "19817AA5-D153-4D11-BDB2-735628322613"
+  },
+  {
+    "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 37037",
+    "DataQualityLevel": 1,
+    "UsageCost": "5€/up to 60min",
+    "OperatorID": 76,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 23764,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 120,
+        "ID": 25768,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 25769,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-05-28T20:36:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Tallinn",
+      "Distance": 49.51362351510415,
+      "CountryID": 74,
+      "Title": "Tallinn-Pirita-2",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.elmo.ee",
+      "Longitude": 24.83419998639011,
+      "ContactEmail": "tugi@elmo.ee",
+      "ContactTelephone1": "+372 6511911",
+      "AddressLine2": "Pirita linnaosa",
+      "Postcode": "11911",
+      "AddressLine1": "Merivälja tee",
+      "Latitude": 59.467369335249,
+      "StateOrProvince": "Harju maakond",
+      "ID": 24109
+    },
+    "DateCreated": "2014-05-28T20:36:00Z",
+    "UsageTypeID": 1,
+    "UUID": "401D9F82-2DD1-4765-B017-EE3E1962BC7B"
+  },
+  {
+    "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 37038",
+    "DataQualityLevel": 1,
+    "UsageCost": "5€/up to 60min",
+    "OperatorID": 76,
+    "StatusTypeID": 50,
+    "SubmissionStatusTypeID": 200,
+    "DataProviderID": 1,
+    "ID": 23763,
+    "Connections": [
+      {
+        "CurrentTypeID": 30,
+        "StatusTypeID": 50,
+        "LevelID": 3,
+        "ConnectionTypeID": 2,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "Amps": 120,
+        "ID": 25766,
+        "Quantity": 1
+      },
+      {
+        "CurrentTypeID": 20,
+        "StatusTypeID": 50,
+        "LevelID": 2,
+        "ConnectionTypeID": 25,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "Amps": 32,
+        "ID": 25767,
+        "Quantity": 1
+      }
+    ],
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2014-05-28T20:33:00Z",
+    "IsRecentlyVerified": false,
+    "AddressInfo": {
+      "Town": "Tallinn",
+      "Distance": 49.910363352639,
+      "CountryID": 74,
+      "Title": "Tallinn-Pirita-1",
+      "DistanceUnit": 2,
+      "RelatedURL": "http://www.elmo.ee",
+      "Longitude": 24.828924975313846,
+      "ContactEmail": "tugi@elmo.ee",
+      "ContactTelephone1": "+372 6511911",
+      "AddressLine2": "Pirita linnaosa",
+      "Postcode": "11911",
+      "AddressLine1": "Rummu tee",
+      "Latitude": 59.46178338984574,
+      "StateOrProvince": "Harju maakond",
+      "ID": 24108
+    },
+    "DateCreated": "2014-05-28T20:33:00Z",
+    "UsageTypeID": 1,
+    "UUID": "C4E02984-9E1D-485B-835A-538CAAD86D76"
+  }
+]

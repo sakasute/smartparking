@@ -53,7 +53,7 @@ backend/data_handling_tool/raw_HSL_data
 *.json
 !backend/data_handling_tool/outputs/parking_lot_stops.json
 !backend/data_handling_tool/outputs/stop_times.json
-
+!backend/data_handling_tool/outputs/chargers.json
 
 ##-----------------------------------------------------------
 ##python

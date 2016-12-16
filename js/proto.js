@@ -35,7 +35,7 @@ function loadData() {
   .done(function( data ) {
     parkData = data;
   });
-	$.getJSON("http://api.openchargemap.io/v2/poi/?output=json&latitude=60.1826&longitude=24.9215&distance=50&maxresults=100&compact=true&verbose=false", function( data ) {
+	$.getJSON("backend/data_handling_tool/outputs/chargers.json", function( data ) {
 		$.each(data, function(index, value) {
 			chargers = data;
 		});
