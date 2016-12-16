@@ -1,0 +1,1802 @@
+[
+  {
+    "Batterylevel": 4,
+    "StopTimestamp": 1479319040000,
+    "StartTimestamp": 1479318784000,
+    "VehicleRef": "1",
+    "Longitude": 24.942202705305213,
+    "Latitude": 60.168576257292514
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479309952000,
+    "StartTimestamp": 1479298304000,
+    "VehicleRef": "2",
+    "Longitude": 24.942160901578927,
+    "Latitude": 60.16830452241609
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313280000,
+    "StartTimestamp": 1479289600000,
+    "VehicleRef": "3",
+    "Longitude": 24.942142811840714,
+    "Latitude": 60.16850257394804
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313280000,
+    "StartTimestamp": 1479288576000,
+    "VehicleRef": "4",
+    "Longitude": 24.942058591889722,
+    "Latitude": 60.16839137906624
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317376000,
+    "StartTimestamp": 1479299968000,
+    "VehicleRef": "5",
+    "Longitude": 24.941996173271757,
+    "Latitude": 60.16854564980583
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479294720000,
+    "StartTimestamp": 1479293056000,
+    "VehicleRef": "6",
+    "Longitude": 24.94199826059793,
+    "Latitude": 60.16846443204491
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313920000,
+    "StartTimestamp": 1479290368000,
+    "VehicleRef": "7",
+    "Longitude": 24.942064184101124,
+    "Latitude": 60.1683241792296
+  },
+  {
+    "Batterylevel": 5,
+    "StopTimestamp": 1479297280000,
+    "StartTimestamp": 1479290624000,
+    "VehicleRef": "8",
+    "Longitude": 24.941940769038833,
+    "Latitude": 60.1683964259154
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479303552000,
+    "StartTimestamp": 1479301248000,
+    "VehicleRef": "9",
+    "Longitude": 24.94225437674865,
+    "Latitude": 60.16836096276924
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316480000,
+    "StartTimestamp": 1479291392000,
+    "VehicleRef": "10",
+    "Longitude": 24.942094937575888,
+    "Latitude": 60.16848143090609
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318528000,
+    "StartTimestamp": 1479306368000,
+    "VehicleRef": "11",
+    "Longitude": 24.942331398006917,
+    "Latitude": 60.16848574588684
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479315200000,
+    "VehicleRef": "12",
+    "Longitude": 24.94230177670932,
+    "Latitude": 60.16826989665747
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479293952000,
+    "StartTimestamp": 1479287424000,
+    "VehicleRef": "13",
+    "Longitude": 24.94214761208566,
+    "Latitude": 60.168481891049886
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479289216000,
+    "StartTimestamp": 1479285120000,
+    "VehicleRef": "14",
+    "Longitude": 24.942129756799872,
+    "Latitude": 60.16844127771855
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317376000,
+    "StartTimestamp": 1479304704000,
+    "VehicleRef": "15",
+    "Longitude": 24.94227440816078,
+    "Latitude": 60.16852337483759
+  },
+  {
+    "Batterylevel": 0,
+    "StopTimestamp": 1479313664000,
+    "StartTimestamp": 1479313024000,
+    "VehicleRef": "16",
+    "Longitude": 24.942075131417425,
+    "Latitude": 60.16851701017113
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479303424000,
+    "StartTimestamp": 1479295360000,
+    "VehicleRef": "17",
+    "Longitude": 24.9419840686511,
+    "Latitude": 60.1684487713106
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479309952000,
+    "StartTimestamp": 1479308672000,
+    "VehicleRef": "18",
+    "Longitude": 24.942134956141228,
+    "Latitude": 60.16855693444611
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479299840000,
+    "StartTimestamp": 1479287424000,
+    "VehicleRef": "19",
+    "Longitude": 24.942088687976163,
+    "Latitude": 60.16856845446843
+  },
+  {
+    "Batterylevel": 1,
+    "StopTimestamp": 1479295232000,
+    "StartTimestamp": 1479286016000,
+    "VehicleRef": "20",
+    "Longitude": 24.94204012710243,
+    "Latitude": 60.16859718925295
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479311616000,
+    "StartTimestamp": 1479285760000,
+    "VehicleRef": "21",
+    "Longitude": 24.942224769301724,
+    "Latitude": 60.16850875069013
+  },
+  {
+    "Batterylevel": 4,
+    "StopTimestamp": 1479317504000,
+    "StartTimestamp": 1479312128000,
+    "VehicleRef": "22",
+    "Longitude": 24.94220398386088,
+    "Latitude": 60.16822270023572
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479302912000,
+    "StartTimestamp": 1479299968000,
+    "VehicleRef": "23",
+    "Longitude": 24.94189491264889,
+    "Latitude": 60.16849335069634
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479318016000,
+    "VehicleRef": "24",
+    "Longitude": 24.942093248054928,
+    "Latitude": 60.16859382973515
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479305472000,
+    "StartTimestamp": 1479304320000,
+    "VehicleRef": "25",
+    "Longitude": 24.941997107274624,
+    "Latitude": 60.16840538125316
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479311360000,
+    "VehicleRef": "26",
+    "Longitude": 24.942172286589678,
+    "Latitude": 60.16838534289082
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317504000,
+    "StartTimestamp": 1479298432000,
+    "VehicleRef": "27",
+    "Longitude": 24.942189124692828,
+    "Latitude": 60.16853737803125
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479315072000,
+    "StartTimestamp": 1479293568000,
+    "VehicleRef": "28",
+    "Longitude": 24.942153754508702,
+    "Latitude": 60.168559723508395
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314048000,
+    "StartTimestamp": 1479306240000,
+    "VehicleRef": "29",
+    "Longitude": 24.942057439344147,
+    "Latitude": 60.1682907715866
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479311744000,
+    "VehicleRef": "30",
+    "Longitude": 24.942039234706428,
+    "Latitude": 60.16857880658831
+  },
+  {
+    "Batterylevel": 21,
+    "StopTimestamp": 1479299968000,
+    "StartTimestamp": 1479288704000,
+    "VehicleRef": "31",
+    "Longitude": 24.949821907248246,
+    "Latitude": 60.16539422014445
+  },
+  {
+    "Batterylevel": 6,
+    "StopTimestamp": 1479315584000,
+    "StartTimestamp": 1479297024000,
+    "VehicleRef": "32",
+    "Longitude": 24.950231321661185,
+    "Latitude": 60.16543090146919
+  },
+  {
+    "Batterylevel": 60,
+    "StopTimestamp": 1479288960000,
+    "StartTimestamp": 1479287808000,
+    "VehicleRef": "33",
+    "Longitude": 24.949916647809925,
+    "Latitude": 60.1654465380031
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479304704000,
+    "StartTimestamp": 1479304704000,
+    "VehicleRef": "34",
+    "Longitude": 24.94994991313619,
+    "Latitude": 60.16537908691719
+  },
+  {
+    "Batterylevel": 46,
+    "StopTimestamp": 1479317376000,
+    "StartTimestamp": 1479293952000,
+    "VehicleRef": "35",
+    "Longitude": 24.95000521358852,
+    "Latitude": 60.1651962841334
+  },
+  {
+    "Batterylevel": 78,
+    "StopTimestamp": 1479319040000,
+    "StartTimestamp": 1479307008000,
+    "VehicleRef": "36",
+    "Longitude": 24.949973812654026,
+    "Latitude": 60.16522503526505
+  },
+  {
+    "Batterylevel": 24,
+    "StopTimestamp": 1479296128000,
+    "StartTimestamp": 1479289856000,
+    "VehicleRef": "37",
+    "Longitude": 24.950003528588617,
+    "Latitude": 60.165350143245156
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316224000,
+    "StartTimestamp": 1479313152000,
+    "VehicleRef": "38",
+    "Longitude": 24.949819602161032,
+    "Latitude": 60.16522618642855
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308544000,
+    "StartTimestamp": 1479283712000,
+    "VehicleRef": "39",
+    "Longitude": 24.94985338673038,
+    "Latitude": 60.16518953491201
+  },
+  {
+    "Batterylevel": 78,
+    "StopTimestamp": 1479317120000,
+    "StartTimestamp": 1479316096000,
+    "VehicleRef": "40",
+    "Longitude": 24.949934147390223,
+    "Latitude": 60.16532654678195
+  },
+  {
+    "Batterylevel": 19,
+    "StopTimestamp": 1479318272000,
+    "StartTimestamp": 1479317248000,
+    "VehicleRef": "41",
+    "Longitude": 24.949874602230782,
+    "Latitude": 60.165388913239916
+  },
+  {
+    "Batterylevel": 34,
+    "StopTimestamp": 1479316736000,
+    "StartTimestamp": 1479284608000,
+    "VehicleRef": "42",
+    "Longitude": 24.949753316989817,
+    "Latitude": 60.16529366298549
+  },
+  {
+    "Batterylevel": 10,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479310080000,
+    "VehicleRef": "43",
+    "Longitude": 24.950257713688462,
+    "Latitude": 60.165409157185266
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479307776000,
+    "StartTimestamp": 1479286400000,
+    "VehicleRef": "44",
+    "Longitude": 24.95017626308374,
+    "Latitude": 60.1654411859143
+  },
+  {
+    "Batterylevel": 5,
+    "StopTimestamp": 1479315712000,
+    "StartTimestamp": 1479283456000,
+    "VehicleRef": "45",
+    "Longitude": 24.949893410775267,
+    "Latitude": 60.165502330644266
+  },
+  {
+    "Batterylevel": 2,
+    "StopTimestamp": 1479306496000,
+    "StartTimestamp": 1479293952000,
+    "VehicleRef": "46",
+    "Longitude": 24.949733042157316,
+    "Latitude": 60.16526576756367
+  },
+  {
+    "Batterylevel": 34,
+    "StopTimestamp": 1479297792000,
+    "StartTimestamp": 1479293696000,
+    "VehicleRef": "47",
+    "Longitude": 24.949942756722315,
+    "Latitude": 60.16523171175351
+  },
+  {
+    "Batterylevel": 46,
+    "StopTimestamp": 1479307904000,
+    "StartTimestamp": 1479296768000,
+    "VehicleRef": "48",
+    "Longitude": 24.949850476630708,
+    "Latitude": 60.165440404867184
+  },
+  {
+    "Batterylevel": 18,
+    "StopTimestamp": 1479299968000,
+    "StartTimestamp": 1479291008000,
+    "VehicleRef": "49",
+    "Longitude": 24.950114869661025,
+    "Latitude": 60.16509172026085
+  },
+  {
+    "Batterylevel": 39,
+    "StopTimestamp": 1479314560000,
+    "StartTimestamp": 1479310208000,
+    "VehicleRef": "50",
+    "Longitude": 24.95012261014157,
+    "Latitude": 60.16530515820764
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479310848000,
+    "StartTimestamp": 1479302784000,
+    "VehicleRef": "51",
+    "Longitude": 24.950194577208432,
+    "Latitude": 60.165402447943535
+  },
+  {
+    "Batterylevel": 30,
+    "StopTimestamp": 1479297152000,
+    "StartTimestamp": 1479294464000,
+    "VehicleRef": "52",
+    "Longitude": 24.95021219911881,
+    "Latitude": 60.16521512658544
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314944000,
+    "StartTimestamp": 1479305216000,
+    "VehicleRef": "53",
+    "Longitude": 24.94991222034592,
+    "Latitude": 60.16519093909181
+  },
+  {
+    "Batterylevel": 34,
+    "StopTimestamp": 1479311616000,
+    "StartTimestamp": 1479307648000,
+    "VehicleRef": "54",
+    "Longitude": 24.950086122909976,
+    "Latitude": 60.16551252231963
+  },
+  {
+    "Batterylevel": 75,
+    "StopTimestamp": 1479296640000,
+    "StartTimestamp": 1479286656000,
+    "VehicleRef": "55",
+    "Longitude": 24.95029148590684,
+    "Latitude": 60.16520222452242
+  },
+  {
+    "Batterylevel": 3,
+    "StopTimestamp": 1479296768000,
+    "StartTimestamp": 1479290112000,
+    "VehicleRef": "56",
+    "Longitude": 24.950080938270737,
+    "Latitude": 60.165010757121955
+  },
+  {
+    "Batterylevel": 5,
+    "StopTimestamp": 1479306624000,
+    "StartTimestamp": 1479299840000,
+    "VehicleRef": "57",
+    "Longitude": 24.95019155468538,
+    "Latitude": 60.16534138550474
+  },
+  {
+    "Batterylevel": 77,
+    "StopTimestamp": 1479313408000,
+    "StartTimestamp": 1479298176000,
+    "VehicleRef": "58",
+    "Longitude": 24.949815182243835,
+    "Latitude": 60.16520509774555
+  },
+  {
+    "Batterylevel": 58,
+    "StopTimestamp": 1479318272000,
+    "StartTimestamp": 1479303680000,
+    "VehicleRef": "59",
+    "Longitude": 24.949884925721467,
+    "Latitude": 60.16517018995102
+  },
+  {
+    "Batterylevel": 34,
+    "StopTimestamp": 1479301632000,
+    "StartTimestamp": 1479292416000,
+    "VehicleRef": "60",
+    "Longitude": 24.949961446450477,
+    "Latitude": 60.16541854532084
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479305728000,
+    "VehicleRef": "61",
+    "Longitude": 24.94382917806194,
+    "Latitude": 60.16461051546675
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479299456000,
+    "StartTimestamp": 1479298048000,
+    "VehicleRef": "62",
+    "Longitude": 24.944036168325525,
+    "Latitude": 60.16469321786082
+  },
+  {
+    "Batterylevel": 3,
+    "StopTimestamp": 1479313536000,
+    "StartTimestamp": 1479304192000,
+    "VehicleRef": "63",
+    "Longitude": 24.943974368285787,
+    "Latitude": 60.16454996370972
+  },
+  {
+    "Batterylevel": 11,
+    "StopTimestamp": 1479308544000,
+    "StartTimestamp": 1479285504000,
+    "VehicleRef": "64",
+    "Longitude": 24.943678523014835,
+    "Latitude": 60.16456243340064
+  },
+  {
+    "Batterylevel": 14,
+    "StopTimestamp": 1479313920000,
+    "StartTimestamp": 1479310464000,
+    "VehicleRef": "65",
+    "Longitude": 24.94359633120725,
+    "Latitude": 60.1644305679789
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479300736000,
+    "StartTimestamp": 1479287680000,
+    "VehicleRef": "66",
+    "Longitude": 24.943587111435857,
+    "Latitude": 60.16424971506823
+  },
+  {
+    "Batterylevel": 9,
+    "StopTimestamp": 1479318016000,
+    "StartTimestamp": 1479305856000,
+    "VehicleRef": "67",
+    "Longitude": 24.943626695856718,
+    "Latitude": 60.164227083491156
+  },
+  {
+    "Batterylevel": 26,
+    "StopTimestamp": 1479314560000,
+    "StartTimestamp": 1479309952000,
+    "VehicleRef": "68",
+    "Longitude": 24.943858765201337,
+    "Latitude": 60.164485711551315
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479293440000,
+    "VehicleRef": "69",
+    "Longitude": 24.943946684406846,
+    "Latitude": 60.164353500217466
+  },
+  {
+    "Batterylevel": 18,
+    "StopTimestamp": 1479313408000,
+    "StartTimestamp": 1479295360000,
+    "VehicleRef": "70",
+    "Longitude": 24.943832350333683,
+    "Latitude": 60.16466083306831
+  },
+  {
+    "Batterylevel": 9,
+    "StopTimestamp": 1479317248000,
+    "StartTimestamp": 1479316736000,
+    "VehicleRef": "71",
+    "Longitude": 24.943987037255695,
+    "Latitude": 60.1642898514034
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308288000,
+    "StartTimestamp": 1479294592000,
+    "VehicleRef": "72",
+    "Longitude": 24.943710115400943,
+    "Latitude": 60.164458172857294
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479290752000,
+    "VehicleRef": "73",
+    "Longitude": 24.943628267117692,
+    "Latitude": 60.16453684182129
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318784000,
+    "StartTimestamp": 1479295232000,
+    "VehicleRef": "74",
+    "Longitude": 24.94350531928996,
+    "Latitude": 60.164509554841224
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479319168000,
+    "StartTimestamp": 1479318528000,
+    "VehicleRef": "75",
+    "Longitude": 24.943632199935948,
+    "Latitude": 60.16469246708084
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308928000,
+    "StartTimestamp": 1479306752000,
+    "VehicleRef": "76",
+    "Longitude": 24.943880664097357,
+    "Latitude": 60.16471972189202
+  },
+  {
+    "Batterylevel": 27,
+    "StopTimestamp": 1479319168000,
+    "StartTimestamp": 1479318912000,
+    "VehicleRef": "77",
+    "Longitude": 24.94376836146015,
+    "Latitude": 60.16416317157566
+  },
+  {
+    "Batterylevel": 40,
+    "StopTimestamp": 1479297024000,
+    "StartTimestamp": 1479285888000,
+    "VehicleRef": "78",
+    "Longitude": 24.943713204279625,
+    "Latitude": 60.164628945573845
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308288000,
+    "StartTimestamp": 1479296640000,
+    "VehicleRef": "79",
+    "Longitude": 24.94396037842529,
+    "Latitude": 60.16458337432629
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479319040000,
+    "StartTimestamp": 1479318528000,
+    "VehicleRef": "80",
+    "Longitude": 24.943680774896293,
+    "Latitude": 60.164303774629325
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479312512000,
+    "StartTimestamp": 1479310208000,
+    "VehicleRef": "81",
+    "Longitude": 24.94391849887637,
+    "Latitude": 60.16424465328792
+  },
+  {
+    "Batterylevel": 23,
+    "StopTimestamp": 1479308032000,
+    "StartTimestamp": 1479285888000,
+    "VehicleRef": "82",
+    "Longitude": 24.94408037595319,
+    "Latitude": 60.16437382843145
+  },
+  {
+    "Batterylevel": 27,
+    "StopTimestamp": 1479307392000,
+    "StartTimestamp": 1479297408000,
+    "VehicleRef": "83",
+    "Longitude": 24.943972608997946,
+    "Latitude": 60.16466288184034
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479303168000,
+    "StartTimestamp": 1479287168000,
+    "VehicleRef": "84",
+    "Longitude": 24.9439628812989,
+    "Latitude": 60.16422650336166
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479298432000,
+    "StartTimestamp": 1479297152000,
+    "VehicleRef": "85",
+    "Longitude": 24.943964386916953,
+    "Latitude": 60.164713388729055
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479294208000,
+    "StartTimestamp": 1479288448000,
+    "VehicleRef": "86",
+    "Longitude": 24.94360794964972,
+    "Latitude": 60.16442928303079
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479312128000,
+    "VehicleRef": "87",
+    "Longitude": 24.943821986506972,
+    "Latitude": 60.1641772409826
+  },
+  {
+    "Batterylevel": 49,
+    "StopTimestamp": 1479317632000,
+    "StartTimestamp": 1479307520000,
+    "VehicleRef": "88",
+    "Longitude": 24.943566692487973,
+    "Latitude": 60.164665620276935
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317504000,
+    "StartTimestamp": 1479313920000,
+    "VehicleRef": "89",
+    "Longitude": 24.943936457083236,
+    "Latitude": 60.16420870759612
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313024000,
+    "StartTimestamp": 1479309184000,
+    "VehicleRef": "90",
+    "Longitude": 24.94350466285181,
+    "Latitude": 60.16443106365532
+  },
+  {
+    "Batterylevel": 75,
+    "StopTimestamp": 1479310208000,
+    "StartTimestamp": 1479285504000,
+    "VehicleRef": "91",
+    "Longitude": 24.916569540172706,
+    "Latitude": 60.15404180076713
+  },
+  {
+    "Batterylevel": 64,
+    "StopTimestamp": 1479305984000,
+    "StartTimestamp": 1479303936000,
+    "VehicleRef": "92",
+    "Longitude": 24.91759515445043,
+    "Latitude": 60.154207767669995
+  },
+  {
+    "Batterylevel": 47,
+    "StopTimestamp": 1479304832000,
+    "StartTimestamp": 1479292288000,
+    "VehicleRef": "93",
+    "Longitude": 24.918239965731843,
+    "Latitude": 60.154080586333635
+  },
+  {
+    "Batterylevel": 50,
+    "StopTimestamp": 1479318400000,
+    "StartTimestamp": 1479314176000,
+    "VehicleRef": "94",
+    "Longitude": 24.917497304599586,
+    "Latitude": 60.15442874298552
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479315712000,
+    "StartTimestamp": 1479315328000,
+    "VehicleRef": "95",
+    "Longitude": 24.916427484382023,
+    "Latitude": 60.15388925102323
+  },
+  {
+    "Batterylevel": 41,
+    "StopTimestamp": 1479310592000,
+    "StartTimestamp": 1479295104000,
+    "VehicleRef": "96",
+    "Longitude": 24.917913196289323,
+    "Latitude": 60.153848350810435
+  },
+  {
+    "Batterylevel": 13,
+    "StopTimestamp": 1479288448000,
+    "StartTimestamp": 1479284736000,
+    "VehicleRef": "97",
+    "Longitude": 24.917195036890337,
+    "Latitude": 60.15491866230663
+  },
+  {
+    "Batterylevel": 40,
+    "StopTimestamp": 1479319168000,
+    "StartTimestamp": 1479315840000,
+    "VehicleRef": "98",
+    "Longitude": 24.916782331206026,
+    "Latitude": 60.15529548734814
+  },
+  {
+    "Batterylevel": 17,
+    "StopTimestamp": 1479298176000,
+    "StartTimestamp": 1479285504000,
+    "VehicleRef": "99",
+    "Longitude": 24.916710663935984,
+    "Latitude": 60.154320933849924
+  },
+  {
+    "Batterylevel": 33,
+    "StopTimestamp": 1479288192000,
+    "StartTimestamp": 1479285504000,
+    "VehicleRef": "100",
+    "Longitude": 24.91617926689644,
+    "Latitude": 60.15444788751386
+  },
+  {
+    "Batterylevel": 47,
+    "StopTimestamp": 1479316736000,
+    "StartTimestamp": 1479313792000,
+    "VehicleRef": "101",
+    "Longitude": 24.91699343146065,
+    "Latitude": 60.154322679117044
+  },
+  {
+    "Batterylevel": 27,
+    "StopTimestamp": 1479303808000,
+    "StartTimestamp": 1479299584000,
+    "VehicleRef": "102",
+    "Longitude": 24.916642958620955,
+    "Latitude": 60.15389838590117
+  },
+  {
+    "Batterylevel": 63,
+    "StopTimestamp": 1479314560000,
+    "StartTimestamp": 1479311872000,
+    "VehicleRef": "103",
+    "Longitude": 24.917629175722517,
+    "Latitude": 60.155268895575915
+  },
+  {
+    "Batterylevel": 45,
+    "StopTimestamp": 1479303040000,
+    "StartTimestamp": 1479294592000,
+    "VehicleRef": "104",
+    "Longitude": 24.91760110945392,
+    "Latitude": 60.155191016887
+  },
+  {
+    "Batterylevel": 35,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479310720000,
+    "VehicleRef": "105",
+    "Longitude": 24.91830890078911,
+    "Latitude": 60.15469227924711
+  },
+  {
+    "Batterylevel": 51,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479315584000,
+    "VehicleRef": "106",
+    "Longitude": 24.916450162205884,
+    "Latitude": 60.1543810811599
+  },
+  {
+    "Batterylevel": 84,
+    "StopTimestamp": 1479303168000,
+    "StartTimestamp": 1479296896000,
+    "VehicleRef": "107",
+    "Longitude": 24.918112876114392,
+    "Latitude": 60.15492785712835
+  },
+  {
+    "Batterylevel": 42,
+    "StopTimestamp": 1479310208000,
+    "StartTimestamp": 1479296256000,
+    "VehicleRef": "108",
+    "Longitude": 24.918104589722493,
+    "Latitude": 60.154296712580496
+  },
+  {
+    "Batterylevel": 71,
+    "StopTimestamp": 1479311744000,
+    "StartTimestamp": 1479298944000,
+    "VehicleRef": "109",
+    "Longitude": 24.916401215383065,
+    "Latitude": 60.15470821719142
+  },
+  {
+    "Batterylevel": 23,
+    "StopTimestamp": 1479306368000,
+    "StartTimestamp": 1479292928000,
+    "VehicleRef": "110",
+    "Longitude": 24.91839567128132,
+    "Latitude": 60.154891852520706
+  },
+  {
+    "Batterylevel": 46,
+    "StopTimestamp": 1479316224000,
+    "StartTimestamp": 1479309696000,
+    "VehicleRef": "111",
+    "Longitude": 24.918519680597512,
+    "Latitude": 60.1544982276539
+  },
+  {
+    "Batterylevel": 19,
+    "StopTimestamp": 1479311616000,
+    "StartTimestamp": 1479287296000,
+    "VehicleRef": "112",
+    "Longitude": 24.917432187475516,
+    "Latitude": 60.15494584858349
+  },
+  {
+    "Batterylevel": 82,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479314688000,
+    "VehicleRef": "113",
+    "Longitude": 24.917269154167947,
+    "Latitude": 60.154965302185325
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479311360000,
+    "StartTimestamp": 1479284096000,
+    "VehicleRef": "114",
+    "Longitude": 24.91652171215668,
+    "Latitude": 60.15449854506937
+  },
+  {
+    "Batterylevel": 14,
+    "StopTimestamp": 1479312512000,
+    "StartTimestamp": 1479307648000,
+    "VehicleRef": "115",
+    "Longitude": 24.916279749634825,
+    "Latitude": 60.15453688275634
+  },
+  {
+    "Batterylevel": 51,
+    "StopTimestamp": 1479306496000,
+    "StartTimestamp": 1479283840000,
+    "VehicleRef": "116",
+    "Longitude": 24.916466563951467,
+    "Latitude": 60.15463330428838
+  },
+  {
+    "Batterylevel": 19,
+    "StopTimestamp": 1479313280000,
+    "StartTimestamp": 1479296384000,
+    "VehicleRef": "117",
+    "Longitude": 24.916513489095763,
+    "Latitude": 60.15457982177368
+  },
+  {
+    "Batterylevel": 16,
+    "StopTimestamp": 1479316352000,
+    "StartTimestamp": 1479291776000,
+    "VehicleRef": "118",
+    "Longitude": 24.916480006930186,
+    "Latitude": 60.153686822974464
+  },
+  {
+    "Batterylevel": 55,
+    "StopTimestamp": 1479313024000,
+    "StartTimestamp": 1479307648000,
+    "VehicleRef": "119",
+    "Longitude": 24.917266140091726,
+    "Latitude": 60.15527918442185
+  },
+  {
+    "Batterylevel": 65,
+    "StopTimestamp": 1479315712000,
+    "StartTimestamp": 1479309952000,
+    "VehicleRef": "120",
+    "Longitude": 24.91675758601879,
+    "Latitude": 60.154430467142305
+  },
+  {
+    "Batterylevel": 42,
+    "StopTimestamp": 1479305344000,
+    "StartTimestamp": 1479284480000,
+    "VehicleRef": "121",
+    "Longitude": 24.918212512492442,
+    "Latitude": 60.15363687202811
+  },
+  {
+    "Batterylevel": 31,
+    "StopTimestamp": 1479313664000,
+    "StartTimestamp": 1479304064000,
+    "VehicleRef": "122",
+    "Longitude": 24.918186141328505,
+    "Latitude": 60.154199406054666
+  },
+  {
+    "Batterylevel": 84,
+    "StopTimestamp": 1479300864000,
+    "StartTimestamp": 1479289216000,
+    "VehicleRef": "123",
+    "Longitude": 24.91824596207109,
+    "Latitude": 60.15467930771081
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479312384000,
+    "StartTimestamp": 1479292544000,
+    "VehicleRef": "124",
+    "Longitude": 24.917668864077964,
+    "Latitude": 60.154821263196105
+  },
+  {
+    "Batterylevel": 13,
+    "StopTimestamp": 1479307008000,
+    "StartTimestamp": 1479304192000,
+    "VehicleRef": "125",
+    "Longitude": 24.918175329214836,
+    "Latitude": 60.15404585648107
+  },
+  {
+    "Batterylevel": 85,
+    "StopTimestamp": 1479307008000,
+    "StartTimestamp": 1479298048000,
+    "VehicleRef": "126",
+    "Longitude": 24.91712633252821,
+    "Latitude": 60.153979269348724
+  },
+  {
+    "Batterylevel": 34,
+    "StopTimestamp": 1479317760000,
+    "StartTimestamp": 1479296512000,
+    "VehicleRef": "127",
+    "Longitude": 24.91781625053747,
+    "Latitude": 60.15540411893592
+  },
+  {
+    "Batterylevel": 57,
+    "StopTimestamp": 1479303424000,
+    "StartTimestamp": 1479294080000,
+    "VehicleRef": "128",
+    "Longitude": 24.917545898889273,
+    "Latitude": 60.154252187723706
+  },
+  {
+    "Batterylevel": 55,
+    "StopTimestamp": 1479307264000,
+    "StartTimestamp": 1479290496000,
+    "VehicleRef": "129",
+    "Longitude": 24.916590803306732,
+    "Latitude": 60.15458403590118
+  },
+  {
+    "Batterylevel": 22,
+    "StopTimestamp": 1479319168000,
+    "StartTimestamp": 1479318784000,
+    "VehicleRef": "130",
+    "Longitude": 24.917063345976587,
+    "Latitude": 60.15492906641506
+  },
+  {
+    "Batterylevel": 12,
+    "StopTimestamp": 1479315456000,
+    "StartTimestamp": 1479314816000,
+    "VehicleRef": "131",
+    "Longitude": 24.91638815889062,
+    "Latitude": 60.1544614622889
+  },
+  {
+    "Batterylevel": 51,
+    "StopTimestamp": 1479297152000,
+    "StartTimestamp": 1479294592000,
+    "VehicleRef": "132",
+    "Longitude": 24.91747162668635,
+    "Latitude": 60.15414446889553
+  },
+  {
+    "Batterylevel": 5,
+    "StopTimestamp": 1479299200000,
+    "StartTimestamp": 1479293440000,
+    "VehicleRef": "133",
+    "Longitude": 24.918164536010547,
+    "Latitude": 60.154498133547015
+  },
+  {
+    "Batterylevel": 85,
+    "StopTimestamp": 1479315840000,
+    "StartTimestamp": 1479309696000,
+    "VehicleRef": "134",
+    "Longitude": 24.916531357016584,
+    "Latitude": 60.15375515770227
+  },
+  {
+    "Batterylevel": 65,
+    "StopTimestamp": 1479313792000,
+    "StartTimestamp": 1479309952000,
+    "VehicleRef": "135",
+    "Longitude": 24.91669823578906,
+    "Latitude": 60.15353192809543
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314176000,
+    "StartTimestamp": 1479304960000,
+    "VehicleRef": "136",
+    "Longitude": 24.91798874895334,
+    "Latitude": 60.153988199492176
+  },
+  {
+    "Batterylevel": 46,
+    "StopTimestamp": 1479314048000,
+    "StartTimestamp": 1479312000000,
+    "VehicleRef": "137",
+    "Longitude": 24.917727182605766,
+    "Latitude": 60.15508317738802
+  },
+  {
+    "Batterylevel": 6,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479315072000,
+    "VehicleRef": "138",
+    "Longitude": 24.917351356928783,
+    "Latitude": 60.154762875599566
+  },
+  {
+    "Batterylevel": 56,
+    "StopTimestamp": 1479307008000,
+    "StartTimestamp": 1479303936000,
+    "VehicleRef": "139",
+    "Longitude": 24.917539857641017,
+    "Latitude": 60.15448348266073
+  },
+  {
+    "Batterylevel": 27,
+    "StopTimestamp": 1479307520000,
+    "StartTimestamp": 1479305216000,
+    "VehicleRef": "140",
+    "Longitude": 24.918211386825295,
+    "Latitude": 60.15412397309426
+  },
+  {
+    "Batterylevel": 31,
+    "StopTimestamp": 1479308416000,
+    "StartTimestamp": 1479293696000,
+    "VehicleRef": "141",
+    "Longitude": 24.916851485008213,
+    "Latitude": 60.153432546349045
+  },
+  {
+    "Batterylevel": 2,
+    "StopTimestamp": 1479314816000,
+    "StartTimestamp": 1479311104000,
+    "VehicleRef": "142",
+    "Longitude": 24.916901646099156,
+    "Latitude": 60.15390498987003
+  },
+  {
+    "Batterylevel": 58,
+    "StopTimestamp": 1479308160000,
+    "StartTimestamp": 1479302656000,
+    "VehicleRef": "143",
+    "Longitude": 24.916128861486992,
+    "Latitude": 60.15442663496429
+  },
+  {
+    "Batterylevel": 82,
+    "StopTimestamp": 1479307776000,
+    "StartTimestamp": 1479305088000,
+    "VehicleRef": "144",
+    "Longitude": 24.917410385079034,
+    "Latitude": 60.15355136859155
+  },
+  {
+    "Batterylevel": 64,
+    "StopTimestamp": 1479306368000,
+    "StartTimestamp": 1479298432000,
+    "VehicleRef": "145",
+    "Longitude": 24.91819428342234,
+    "Latitude": 60.15393261933704
+  },
+  {
+    "Batterylevel": 53,
+    "StopTimestamp": 1479302528000,
+    "StartTimestamp": 1479287168000,
+    "VehicleRef": "146",
+    "Longitude": 24.917698747680387,
+    "Latitude": 60.15343781776706
+  },
+  {
+    "Batterylevel": 86,
+    "StopTimestamp": 1479312128000,
+    "StartTimestamp": 1479300736000,
+    "VehicleRef": "147",
+    "Longitude": 24.917870251776684,
+    "Latitude": 60.15416723674763
+  },
+  {
+    "Batterylevel": 83,
+    "StopTimestamp": 1479318144000,
+    "StartTimestamp": 1479288960000,
+    "VehicleRef": "148",
+    "Longitude": 24.916725340305153,
+    "Latitude": 60.15357240663596
+  },
+  {
+    "Batterylevel": 44,
+    "StopTimestamp": 1479319040000,
+    "StartTimestamp": 1479317504000,
+    "VehicleRef": "149",
+    "Longitude": 24.916942000613243,
+    "Latitude": 60.153398549041036
+  },
+  {
+    "Batterylevel": 16,
+    "StopTimestamp": 1479311360000,
+    "StartTimestamp": 1479307008000,
+    "VehicleRef": "150",
+    "Longitude": 24.91825597050118,
+    "Latitude": 60.154448683663766
+  },
+  {
+    "Batterylevel": 10,
+    "StopTimestamp": 1479313792000,
+    "StartTimestamp": 1479304192000,
+    "VehicleRef": "151",
+    "Longitude": 24.941848789813854,
+    "Latitude": 60.16911781782411
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479312000000,
+    "StartTimestamp": 1479301632000,
+    "VehicleRef": "152",
+    "Longitude": 24.941566240509204,
+    "Latitude": 60.169280932623806
+  },
+  {
+    "Batterylevel": 20,
+    "StopTimestamp": 1479314688000,
+    "StartTimestamp": 1479302400000,
+    "VehicleRef": "153",
+    "Longitude": 24.94159394981091,
+    "Latitude": 60.16953930697422
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479310592000,
+    "StartTimestamp": 1479309056000,
+    "VehicleRef": "154",
+    "Longitude": 24.94170167465168,
+    "Latitude": 60.169134625508455
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313920000,
+    "StartTimestamp": 1479301888000,
+    "VehicleRef": "155",
+    "Longitude": 24.941677960373138,
+    "Latitude": 60.169069813243475
+  },
+  {
+    "Batterylevel": 25,
+    "StopTimestamp": 1479316480000,
+    "StartTimestamp": 1479285248000,
+    "VehicleRef": "156",
+    "Longitude": 24.941766389320804,
+    "Latitude": 60.16910473296871
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479296384000,
+    "VehicleRef": "157",
+    "Longitude": 24.941909150836064,
+    "Latitude": 60.169216989665735
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479307392000,
+    "StartTimestamp": 1479290496000,
+    "VehicleRef": "158",
+    "Longitude": 24.941756709933927,
+    "Latitude": 60.16921662958911
+  },
+  {
+    "Batterylevel": 6,
+    "StopTimestamp": 1479316224000,
+    "StartTimestamp": 1479309952000,
+    "VehicleRef": "159",
+    "Longitude": 24.941747941915136,
+    "Latitude": 60.16928176825203
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479311488000,
+    "StartTimestamp": 1479308544000,
+    "VehicleRef": "160",
+    "Longitude": 24.941568390912558,
+    "Latitude": 60.16902302371078
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316480000,
+    "StartTimestamp": 1479292288000,
+    "VehicleRef": "161",
+    "Longitude": 24.941573206324495,
+    "Latitude": 60.16908519305015
+  },
+  {
+    "Batterylevel": 26,
+    "StopTimestamp": 1479316992000,
+    "StartTimestamp": 1479297536000,
+    "VehicleRef": "162",
+    "Longitude": 24.941539694532775,
+    "Latitude": 60.16909621046678
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314432000,
+    "StartTimestamp": 1479304704000,
+    "VehicleRef": "163",
+    "Longitude": 24.941480447234873,
+    "Latitude": 60.16905882167998
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308416000,
+    "StartTimestamp": 1479298944000,
+    "VehicleRef": "164",
+    "Longitude": 24.94189233759817,
+    "Latitude": 60.16943009827984
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479300480000,
+    "StartTimestamp": 1479299712000,
+    "VehicleRef": "165",
+    "Longitude": 24.94162118834759,
+    "Latitude": 60.16912757261513
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479312896000,
+    "StartTimestamp": 1479300864000,
+    "VehicleRef": "166",
+    "Longitude": 24.941635185545433,
+    "Latitude": 60.169424512728256
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479311616000,
+    "StartTimestamp": 1479286528000,
+    "VehicleRef": "167",
+    "Longitude": 24.9418752447551,
+    "Latitude": 60.16918244477149
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479312768000,
+    "StartTimestamp": 1479298432000,
+    "VehicleRef": "168",
+    "Longitude": 24.941906403314025,
+    "Latitude": 60.16939665019075
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479306368000,
+    "StartTimestamp": 1479293184000,
+    "VehicleRef": "169",
+    "Longitude": 24.941399388370677,
+    "Latitude": 60.16918245919136
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479315712000,
+    "StartTimestamp": 1479313024000,
+    "VehicleRef": "170",
+    "Longitude": 24.94179699820833,
+    "Latitude": 60.169165314265925
+  },
+  {
+    "Batterylevel": 7,
+    "StopTimestamp": 1479318528000,
+    "StartTimestamp": 1479318528000,
+    "VehicleRef": "171",
+    "Longitude": 24.941588786646026,
+    "Latitude": 60.16953196557172
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479294720000,
+    "VehicleRef": "172",
+    "Longitude": 24.941491959773856,
+    "Latitude": 60.1693905116212
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316224000,
+    "StartTimestamp": 1479305856000,
+    "VehicleRef": "173",
+    "Longitude": 24.94143087082489,
+    "Latitude": 60.16920309329554
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479293696000,
+    "StartTimestamp": 1479293568000,
+    "VehicleRef": "174",
+    "Longitude": 24.94153790468082,
+    "Latitude": 60.1692373712365
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479304832000,
+    "StartTimestamp": 1479288064000,
+    "VehicleRef": "175",
+    "Longitude": 24.941528096876365,
+    "Latitude": 60.169186744033446
+  },
+  {
+    "Batterylevel": 22,
+    "StopTimestamp": 1479317632000,
+    "StartTimestamp": 1479316992000,
+    "VehicleRef": "176",
+    "Longitude": 24.941447161547263,
+    "Latitude": 60.16940939629123
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314176000,
+    "StartTimestamp": 1479313408000,
+    "VehicleRef": "177",
+    "Longitude": 24.94174206058995,
+    "Latitude": 60.16910326203807
+  },
+  {
+    "Batterylevel": 22,
+    "StopTimestamp": 1479318656000,
+    "StartTimestamp": 1479318400000,
+    "VehicleRef": "178",
+    "Longitude": 24.94162605536832,
+    "Latitude": 60.16922176705854
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479288832000,
+    "StartTimestamp": 1479288064000,
+    "VehicleRef": "179",
+    "Longitude": 24.941823658070007,
+    "Latitude": 60.169298876041886
+  },
+  {
+    "Batterylevel": 29,
+    "StopTimestamp": 1479313024000,
+    "StartTimestamp": 1479311872000,
+    "VehicleRef": "180",
+    "Longitude": 24.941743410266618,
+    "Latitude": 60.1694739318978
+  },
+  {
+    "Batterylevel": 46,
+    "StopTimestamp": 1479316480000,
+    "StartTimestamp": 1479311488000,
+    "VehicleRef": "181",
+    "Longitude": 24.94786576095329,
+    "Latitude": 60.17322511033475
+  },
+  {
+    "Batterylevel": 8,
+    "StopTimestamp": 1479317376000,
+    "StartTimestamp": 1479313792000,
+    "VehicleRef": "182",
+    "Longitude": 24.947842958848447,
+    "Latitude": 60.17329021185756
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479300864000,
+    "StartTimestamp": 1479291008000,
+    "VehicleRef": "183",
+    "Longitude": 24.9479423743278,
+    "Latitude": 60.173256084989866
+  },
+  {
+    "Batterylevel": 0,
+    "StopTimestamp": 1479309440000,
+    "StartTimestamp": 1479292160000,
+    "VehicleRef": "184",
+    "Longitude": 24.947974622929845,
+    "Latitude": 60.17310079099771
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317760000,
+    "StartTimestamp": 1479317632000,
+    "VehicleRef": "185",
+    "Longitude": 24.947780335050865,
+    "Latitude": 60.17290740083294
+  },
+  {
+    "Batterylevel": 3,
+    "StopTimestamp": 1479300352000,
+    "StartTimestamp": 1479298176000,
+    "VehicleRef": "186",
+    "Longitude": 24.947725055123527,
+    "Latitude": 60.17294438666782
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317632000,
+    "StartTimestamp": 1479315072000,
+    "VehicleRef": "187",
+    "Longitude": 24.94783745199054,
+    "Latitude": 60.1732376624509
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313024000,
+    "StartTimestamp": 1479309952000,
+    "VehicleRef": "188",
+    "Longitude": 24.947751740213945,
+    "Latitude": 60.172999088809874
+  },
+  {
+    "Batterylevel": 55,
+    "StopTimestamp": 1479304320000,
+    "StartTimestamp": 1479284864000,
+    "VehicleRef": "189",
+    "Longitude": 24.947851656583282,
+    "Latitude": 60.17316434085593
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479313536000,
+    "StartTimestamp": 1479311104000,
+    "VehicleRef": "190",
+    "Longitude": 24.947639939498252,
+    "Latitude": 60.17320777441244
+  },
+  {
+    "Batterylevel": 29,
+    "StopTimestamp": 1479317248000,
+    "StartTimestamp": 1479303168000,
+    "VehicleRef": "191",
+    "Longitude": 24.947886084536304,
+    "Latitude": 60.173298488147985
+  },
+  {
+    "Batterylevel": 26,
+    "StopTimestamp": 1479318400000,
+    "StartTimestamp": 1479313152000,
+    "VehicleRef": "192",
+    "Longitude": 24.94787561252786,
+    "Latitude": 60.17295326692826
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479315072000,
+    "StartTimestamp": 1479296768000,
+    "VehicleRef": "193",
+    "Longitude": 24.94771269818075,
+    "Latitude": 60.17324604576559
+  },
+  {
+    "Batterylevel": 22,
+    "StopTimestamp": 1479316608000,
+    "StartTimestamp": 1479295488000,
+    "VehicleRef": "194",
+    "Longitude": 24.947910991227424,
+    "Latitude": 60.1729745442811
+  },
+  {
+    "Batterylevel": 43,
+    "StopTimestamp": 1479314816000,
+    "StartTimestamp": 1479285376000,
+    "VehicleRef": "195",
+    "Longitude": 24.947731574061866,
+    "Latitude": 60.173098144504785
+  },
+  {
+    "Batterylevel": 43,
+    "StopTimestamp": 1479311232000,
+    "StartTimestamp": 1479306880000,
+    "VehicleRef": "196",
+    "Longitude": 24.947900165358174,
+    "Latitude": 60.17301225562312
+  },
+  {
+    "Batterylevel": 10,
+    "StopTimestamp": 1479315712000,
+    "StartTimestamp": 1479312384000,
+    "VehicleRef": "197",
+    "Longitude": 24.947708435776164,
+    "Latitude": 60.17305968569123
+  },
+  {
+    "Batterylevel": 7,
+    "StopTimestamp": 1479303936000,
+    "StartTimestamp": 1479287296000,
+    "VehicleRef": "198",
+    "Longitude": 24.947778529422767,
+    "Latitude": 60.173106302251966
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479294208000,
+    "StartTimestamp": 1479290496000,
+    "VehicleRef": "199",
+    "Longitude": 24.947663212495065,
+    "Latitude": 60.17309445715818
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479307392000,
+    "VehicleRef": "200",
+    "Longitude": 24.94775376180598,
+    "Latitude": 60.17305893608829
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316096000,
+    "StartTimestamp": 1479290624000,
+    "VehicleRef": "201",
+    "Longitude": 24.934386582569786,
+    "Latitude": 60.17518733479036
+  },
+  {
+    "Batterylevel": 29,
+    "StopTimestamp": 1479297024000,
+    "StartTimestamp": 1479288704000,
+    "VehicleRef": "202",
+    "Longitude": 24.934623873591143,
+    "Latitude": 60.17532917888663
+  },
+  {
+    "Batterylevel": 25,
+    "StopTimestamp": 1479311232000,
+    "StartTimestamp": 1479310848000,
+    "VehicleRef": "203",
+    "Longitude": 24.934738903220218,
+    "Latitude": 60.17538749117896
+  },
+  {
+    "Batterylevel": 13,
+    "StopTimestamp": 1479310720000,
+    "StartTimestamp": 1479308928000,
+    "VehicleRef": "204",
+    "Longitude": 24.934712425006527,
+    "Latitude": 60.17509878724592
+  },
+  {
+    "Batterylevel": 44,
+    "StopTimestamp": 1479315200000,
+    "StartTimestamp": 1479309696000,
+    "VehicleRef": "205",
+    "Longitude": 24.93475243878977,
+    "Latitude": 60.17514143738782
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479311872000,
+    "StartTimestamp": 1479308800000,
+    "VehicleRef": "206",
+    "Longitude": 24.93487994718219,
+    "Latitude": 60.17549041588386
+  },
+  {
+    "Batterylevel": 57,
+    "StopTimestamp": 1479310720000,
+    "StartTimestamp": 1479302016000,
+    "VehicleRef": "207",
+    "Longitude": 24.93431721648736,
+    "Latitude": 60.17551979986195
+  },
+  {
+    "Batterylevel": 72,
+    "StopTimestamp": 1479319168000,
+    "StartTimestamp": 1479319040000,
+    "VehicleRef": "208",
+    "Longitude": 24.9344118044579,
+    "Latitude": 60.17521350575008
+  },
+  {
+    "Batterylevel": 27,
+    "StopTimestamp": 1479314176000,
+    "StartTimestamp": 1479312512000,
+    "VehicleRef": "209",
+    "Longitude": 24.934416906039832,
+    "Latitude": 60.175224704152576
+  },
+  {
+    "Batterylevel": 30,
+    "StopTimestamp": 1479318400000,
+    "StartTimestamp": 1479318400000,
+    "VehicleRef": "210",
+    "Longitude": 24.93453936752835,
+    "Latitude": 60.17559376506107
+  },
+  {
+    "Batterylevel": 0,
+    "StopTimestamp": 1479315584000,
+    "StartTimestamp": 1479309696000,
+    "VehicleRef": "211",
+    "Longitude": 24.93468911953869,
+    "Latitude": 60.175068175218314
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479317248000,
+    "VehicleRef": "212",
+    "Longitude": 24.934445269570848,
+    "Latitude": 60.175114042154306
+  },
+  {
+    "Batterylevel": 64,
+    "StopTimestamp": 1479317888000,
+    "StartTimestamp": 1479310336000,
+    "VehicleRef": "213",
+    "Longitude": 24.934553555081838,
+    "Latitude": 60.17526707999129
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479314176000,
+    "StartTimestamp": 1479306624000,
+    "VehicleRef": "214",
+    "Longitude": 24.934913173650042,
+    "Latitude": 60.175429598395226
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479297792000,
+    "StartTimestamp": 1479297408000,
+    "VehicleRef": "215",
+    "Longitude": 24.934313441928857,
+    "Latitude": 60.175279145613956
+  },
+  {
+    "Batterylevel": 35,
+    "StopTimestamp": 1479304320000,
+    "StartTimestamp": 1479294848000,
+    "VehicleRef": "216",
+    "Longitude": 24.934246002931,
+    "Latitude": 60.17526569586606
+  },
+  {
+    "Batterylevel": 12,
+    "StopTimestamp": 1479304704000,
+    "StartTimestamp": 1479297024000,
+    "VehicleRef": "217",
+    "Longitude": 24.934302557854405,
+    "Latitude": 60.17528371176868
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479316480000,
+    "StartTimestamp": 1479316096000,
+    "VehicleRef": "218",
+    "Longitude": 24.934770049511435,
+    "Latitude": 60.17528805198598
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318912000,
+    "StartTimestamp": 1479318528000,
+    "VehicleRef": "219",
+    "Longitude": 24.93473090066303,
+    "Latitude": 60.1751543700548
+  },
+  {
+    "Batterylevel": 57,
+    "StopTimestamp": 1479318784000,
+    "StartTimestamp": 1479302912000,
+    "VehicleRef": "220",
+    "Longitude": 24.934297226781567,
+    "Latitude": 60.17553523875192
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479308416000,
+    "StartTimestamp": 1479303424000,
+    "VehicleRef": "221",
+    "Longitude": 24.93446746161962,
+    "Latitude": 60.175516250072306
+  },
+  {
+    "Batterylevel": 12,
+    "StopTimestamp": 1479309696000,
+    "StartTimestamp": 1479298432000,
+    "VehicleRef": "222",
+    "Longitude": 24.934407656796846,
+    "Latitude": 60.175226899317174
+  },
+  {
+    "Batterylevel": 100,
+    "StopTimestamp": 1479318144000,
+    "StartTimestamp": 1479297280000,
+    "VehicleRef": "223",
+    "Longitude": 24.934520156185293,
+    "Latitude": 60.17544452689719
+  },
+  {
+    "Batterylevel": 67,
+    "StopTimestamp": 1479296256000,
+    "StartTimestamp": 1479290752000,
+    "VehicleRef": "224",
+    "Longitude": 24.934378729347618,
+    "Latitude": 60.17548754704375
+  },
+  {
+    "Batterylevel": 29,
+    "StopTimestamp": 1479317248000,
+    "StartTimestamp": 1479298432000,
+    "VehicleRef": "225",
+    "Longitude": 24.934308943375495,
+    "Latitude": 60.17549997906508
+  }
+]

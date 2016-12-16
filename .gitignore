@@ -51,6 +51,9 @@ backend/data_handling_tool/raw_HSL_data
 ##
 #JSON this rule makes the one above obsolete but I migth still change this
 *.json
+!backend/data_handling_tool/outputs/parking_lot_stops.json
+!backend/data_handling_tool/outputs/stop_times.json
+
 
 ##-----------------------------------------------------------
 ##python
